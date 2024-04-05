@@ -12,6 +12,7 @@ enum Constants {
     static let section2 = ["WebView 기초"]
     static let section3 = ["Text 기초 및 속성"]
     static let section4 = ["Image 기초 및 속성"]
+    static let section5 = ["VStackView", "HStackView", "ZStackView"]
 }
 
 struct ContentView: View {
@@ -50,11 +51,32 @@ struct ContentView: View {
                         }
                     }
                 }
+                
+                Section(header: Text("Stack#7")) {
+                    ForEach(Constants.section5, id: \.self) { item in
+                        NavigationLink(destination: determineDestination(item: item)) {
+                            Text(item)
+                        }
+                    }
+                }
             }
             .navigationBarTitle("SwiftUI-Practice")
         }
     }
 }
+
+func determineDestination(item: String) -> some View {
+        switch item {
+        case "VStackView":
+            return AnyView(VStackView7())
+        case "HStackView":
+            return AnyView(HStackView7())
+        case "ZStackView":
+            return AnyView(ZStackView7())
+        default:
+            return AnyView(EmptyView()) // Default case, do nothing
+        }
+    }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
