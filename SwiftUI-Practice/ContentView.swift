@@ -7,18 +7,59 @@
 
 import SwiftUI
 
+enum Constants {
+    static let section1 = ["SwiftUI 기초(default 화면)"]
+    static let section2 = ["WebView 기초"]
+    static let section3 = ["Text 기초 및 속성"]
+    static let section4 = ["Image 기초 및 속성"]
+}
+
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                Section(header: Text("Practice#1~3")) {
+                    ForEach(Constants.section1, id: \.self) { item in
+                        NavigationLink(destination: ContentView1()) {
+                            Text(item)
+                        }
+                    }
+                }
+                
+                Section(header: Text("WebView#4")) {
+                    ForEach(Constants.section2, id: \.self) { item in
+                        NavigationLink(destination: ContentView4()) {
+                            Text(item)
+                        }
+                    }
+                }
+                
+                Section(header: Text("Text#5")) {
+                    ForEach(Constants.section3, id: \.self) { item in
+                        NavigationLink(destination: ContentView5()) {
+                            Text(item)
+                        }
+                    }
+                }
+                
+                Section(header: Text("Image#6")) {
+                    ForEach(Constants.section4, id: \.self) { item in
+                        NavigationLink(destination: ContentView6()) {
+                            Text(item)
+                        }
+                    }
+                }
+            }
+            .navigationBarTitle("SwiftUI-Practice")
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
+
+
