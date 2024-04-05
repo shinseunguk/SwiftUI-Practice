@@ -32,6 +32,15 @@
 		AC8B750D2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B750C2BBFDCEF003504C3 /* CircleImageView6.swift */; };
 		AC8B750E2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B750C2BBFDCEF003504C3 /* CircleImageView6.swift */; };
 		AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B750C2BBFDCEF003504C3 /* CircleImageView6.swift */; };
+		AC8B75172BBFE1A1003504C3 /* VStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B75162BBFE1A1003504C3 /* VStackView7.swift */; };
+		AC8B75182BBFE1A1003504C3 /* VStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B75162BBFE1A1003504C3 /* VStackView7.swift */; };
+		AC8B75192BBFE1A1003504C3 /* VStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B75162BBFE1A1003504C3 /* VStackView7.swift */; };
+		AC8B751B2BBFE6EE003504C3 /* HStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751A2BBFE6EE003504C3 /* HStackView7.swift */; };
+		AC8B751C2BBFE6EE003504C3 /* HStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751A2BBFE6EE003504C3 /* HStackView7.swift */; };
+		AC8B751D2BBFE6EE003504C3 /* HStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751A2BBFE6EE003504C3 /* HStackView7.swift */; };
+		AC8B751F2BBFE8A7003504C3 /* ZStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */; };
+		AC8B75202BBFE8A7003504C3 /* ZStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */; };
+		AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +77,9 @@
 		AC8B75032BBFDCAF003504C3 /* ContentView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView5.swift; sourceTree = "<group>"; };
 		AC8B75082BBFDCDD003504C3 /* ContentView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView6.swift; sourceTree = "<group>"; };
 		AC8B750C2BBFDCEF003504C3 /* CircleImageView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView6.swift; sourceTree = "<group>"; };
+		AC8B75162BBFE1A1003504C3 /* VStackView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView7.swift; sourceTree = "<group>"; };
+		AC8B751A2BBFE6EE003504C3 /* HStackView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView7.swift; sourceTree = "<group>"; };
+		AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +137,7 @@
 				AC8B74F12BBFD847003504C3 /* #4 */,
 				AC8B75022BBFDCA3003504C3 /* #5 */,
 				AC8B75072BBFDCD1003504C3 /* #6 */,
+				AC8B75152BBFE196003504C3 /* #7 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -187,6 +200,16 @@
 				AC8B750C2BBFDCEF003504C3 /* CircleImageView6.swift */,
 			);
 			path = "#6";
+			sourceTree = "<group>";
+		};
+		AC8B75152BBFE196003504C3 /* #7 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B75162BBFE1A1003504C3 /* VStackView7.swift */,
+				AC8B751A2BBFE6EE003504C3 /* HStackView7.swift */,
+				AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */,
+			);
+			path = "#7";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,10 +344,13 @@
 			files = (
 				AC8B75042BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC8B74C52BBFCAE9003504C3 /* ContentView.swift in Sources */,
+				AC8B751B2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC8B74EE2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B75092BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC8B74C32BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift in Sources */,
+				AC8B751F2BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC8B74FF2BBFD90B003504C3 /* MyWebview4.swift in Sources */,
+				AC8B75172BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC8B74FB2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC8B750D2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 			);
@@ -336,8 +362,11 @@
 			files = (
 				AC8B74D42BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift in Sources */,
 				AC8B74EF2BBFD71E003504C3 /* ContentView1.swift in Sources */,
+				AC8B75182BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC8B75002BBFD90B003504C3 /* MyWebview4.swift in Sources */,
+				AC8B751C2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC8B750A2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
+				AC8B75202BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC8B75052BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC8B750E2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 				AC8B74FC2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
@@ -350,10 +379,13 @@
 			files = (
 				AC8B75062BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC8B74DE2BBFCAEB003504C3 /* SwiftUI_PracticeUITests.swift in Sources */,
+				AC8B751D2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC8B74F02BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B750B2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC8B74E02BBFCAEB003504C3 /* SwiftUI_PracticeUITestsLaunchTests.swift in Sources */,
+				AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC8B75012BBFD90B003504C3 /* MyWebview4.swift in Sources */,
+				AC8B75192BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC8B74FD2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 			);
