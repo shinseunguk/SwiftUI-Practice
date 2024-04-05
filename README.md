@@ -1,5 +1,6 @@
 # 개요
-SwiftUI 스터디를 위한 Project
+- 개발하는 정대리 SwiftUI강좌 클론 코딩
+- SwiftUI 스터디를 위한 Project
 <br><br>
 
 # 강좌 link
