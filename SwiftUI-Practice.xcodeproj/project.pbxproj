@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC8B74C32BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B74C22BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift */; };
-		AC8B74C52BBFCAE9003504C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B74C42BBFCAE9003504C3 /* ContentView.swift */; };
+		AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B74C42BBFCAE9003504C3 /* IndexContentView.swift */; };
 		AC8B74C72BBFCAEB003504C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8B74C62BBFCAEB003504C3 /* Assets.xcassets */; };
 		AC8B74CA2BBFCAEB003504C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8B74C92BBFCAEB003504C3 /* Preview Assets.xcassets */; };
 		AC8B74D42BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B74D32BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift */; };
@@ -63,7 +63,7 @@
 /* Begin PBXFileReference section */
 		AC8B74BF2BBFCAE9003504C3 /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8B74C22BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
-		AC8B74C42BBFCAE9003504C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC8B74C42BBFCAE9003504C3 /* IndexContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexContentView.swift; sourceTree = "<group>"; };
 		AC8B74C62BBFCAEB003504C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC8B74C92BBFCAEB003504C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC8B74CF2BBFCAEB003504C3 /* SwiftUI-PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-PracticeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				AC8B74C22BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift */,
-				AC8B74C42BBFCAE9003504C3 /* ContentView.swift */,
+				AC8B74C42BBFCAE9003504C3 /* IndexContentView.swift */,
 				AC8B74C62BBFCAEB003504C3 /* Assets.xcassets */,
 				AC8B74EC2BBFD709003504C3 /* #1~3 */,
 				AC8B74F12BBFD847003504C3 /* #4 */,
@@ -343,7 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC8B75042BBFDCAF003504C3 /* ContentView5.swift in Sources */,
-				AC8B74C52BBFCAE9003504C3 /* ContentView.swift in Sources */,
+				AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */,
 				AC8B751B2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC8B74EE2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B75092BBFDCDD003504C3 /* ContentView6.swift in Sources */,

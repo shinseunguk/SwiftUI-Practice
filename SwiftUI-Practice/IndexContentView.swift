@@ -15,7 +15,7 @@ enum Constants {
     static let section5 = ["VStackView", "HStackView", "ZStackView"]
 }
 
-struct ContentView: View {
+struct IndexContentView: View {
     
     var body: some View {
         NavigationView {
@@ -80,7 +80,7 @@ func determineDestination(item: String) -> some View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        IndexContentView()
     }
 }
 
