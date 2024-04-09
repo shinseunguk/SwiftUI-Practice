@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC20380A2BC4D76B003132AF /* ContentView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038092BC4D76B003132AF /* ContentView8.swift */; };
+		AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038092BC4D76B003132AF /* ContentView8.swift */; };
+		AC20380C2BC4D76B003132AF /* ContentView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038092BC4D76B003132AF /* ContentView8.swift */; };
+		AC20380E2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20380D2BC4DB6D003132AF /* ProjectCardView8.swift */; };
+		AC20380F2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20380D2BC4DB6D003132AF /* ProjectCardView8.swift */; };
+		AC2038102BC4DB6D003132AF /* ProjectCardView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20380D2BC4DB6D003132AF /* ProjectCardView8.swift */; };
+		AC2038122BC4DC04003132AF /* ProjectBasicView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */; };
+		AC2038132BC4DC04003132AF /* ProjectBasicView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */; };
+		AC2038142BC4DC04003132AF /* ProjectBasicView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */; };
 		AC8B74C32BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B74C22BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift */; };
 		AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B74C42BBFCAE9003504C3 /* IndexContentView.swift */; };
 		AC8B74C72BBFCAEB003504C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8B74C62BBFCAEB003504C3 /* Assets.xcassets */; };
@@ -61,6 +70,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC2038092BC4D76B003132AF /* ContentView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView8.swift; sourceTree = "<group>"; };
+		AC20380D2BC4DB6D003132AF /* ProjectCardView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView8.swift; sourceTree = "<group>"; };
+		AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectBasicView8.swift; sourceTree = "<group>"; };
 		AC8B74BF2BBFCAE9003504C3 /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8B74C22BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		AC8B74C42BBFCAE9003504C3 /* IndexContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +119,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC2038062BC4D5C2003132AF /* #8 */ = {
+			isa = PBXGroup;
+			children = (
+				AC2038092BC4D76B003132AF /* ContentView8.swift */,
+				AC20380D2BC4DB6D003132AF /* ProjectCardView8.swift */,
+				AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */,
+			);
+			path = "#8";
+			sourceTree = "<group>";
+		};
 		AC8B74B62BBFCAE9003504C3 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +160,7 @@
 				AC8B75022BBFDCA3003504C3 /* #5 */,
 				AC8B75072BBFDCD1003504C3 /* #6 */,
 				AC8B75152BBFE196003504C3 /* #7 */,
+				AC2038062BC4D5C2003132AF /* #8 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -342,14 +365,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC20380E2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
 				AC8B75042BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */,
 				AC8B751B2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
+				AC20380A2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC8B74EE2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B75092BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC8B74C32BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift in Sources */,
 				AC8B751F2BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC8B74FF2BBFD90B003504C3 /* MyWebview4.swift in Sources */,
+				AC2038122BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC8B75172BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC8B74FB2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC8B750D2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
@@ -360,6 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2038132BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
+				AC20380F2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
+				AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC8B74D42BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift in Sources */,
 				AC8B74EF2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B75182BBFE1A1003504C3 /* VStackView7.swift in Sources */,
@@ -377,14 +406,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2038102BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
 				AC8B75062BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC8B74DE2BBFCAEB003504C3 /* SwiftUI_PracticeUITests.swift in Sources */,
 				AC8B751D2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
+				AC20380C2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC8B74F02BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B750B2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC8B74E02BBFCAEB003504C3 /* SwiftUI_PracticeUITestsLaunchTests.swift in Sources */,
 				AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC8B75012BBFD90B003504C3 /* MyWebview4.swift in Sources */,
+				AC2038142BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC8B75192BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC8B74FD2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,

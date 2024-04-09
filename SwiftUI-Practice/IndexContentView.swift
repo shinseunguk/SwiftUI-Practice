@@ -13,6 +13,7 @@ enum Constants {
     static let section3 = ["Text 기초 및 속성"]
     static let section4 = ["Image 기초 및 속성"]
     static let section5 = ["VStackView", "HStackView", "ZStackView"]
+    static let section6 = ["Layout 기초"]
 }
 
 struct IndexContentView: View {
@@ -55,6 +56,14 @@ struct IndexContentView: View {
                 Section(header: Text("Stack#7")) {
                     ForEach(Constants.section5, id: \.self) { item in
                         NavigationLink(destination: determineDestination(item: item)) {
+                            Text(item)
+                        }
+                    }
+                }
+                
+                Section(header: Text("Layout#8")) {
+                    ForEach(Constants.section6, id: \.self) { item in
+                        NavigationLink(destination: ContentView8()) {
                             Text(item)
                         }
                     }
