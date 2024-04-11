@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ProjectCardView8: View {
+    
+    @State var shouldShowAlert: Bool = false
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 0){
             Text("유튭 프로젝트")
@@ -38,13 +41,21 @@ struct ProjectCardView8: View {
                 
                 Spacer()
                 
-                Text("확인")
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(width: 80)
-                    .background(.blue)
-                    .cornerRadius(20)
+                Button(action: {
+                    print("확인 버튼 클릭")
+                    
+                    self.shouldShowAlert = true
+                }) {
+                    Text("확인")
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(width: 80)
+                        .background(.blue)
+                        .cornerRadius(20)
+                }.alert(isPresented: $shouldShowAlert, content: {
+                    Alert(title: Text("알림창입니다."))
+                })
             }
         }
         .padding(30)

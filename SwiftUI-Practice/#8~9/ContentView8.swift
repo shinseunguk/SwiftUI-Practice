@@ -26,7 +26,7 @@ struct ContentView8: View {
                 Text("할 일 목록")
                     .fontWeight(.black)
                     .font(.system(size: 40))
-                    .padding(.leading, 10)
+                    .padding(.leading, 20)
                 
                 ScrollView {
                     VStack(spacing: 10){
@@ -40,7 +40,7 @@ struct ContentView8: View {
                         
                         ProjectBasicView8(
                             backgroundColor: .orange,
-                            icon: "flame.fill",
+                            icon: "tv.fill",
                             title: "영상 다시보기",
                             subTitle: "8 AM - 9 AM"
                         )

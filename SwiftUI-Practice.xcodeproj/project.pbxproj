@@ -119,14 +119,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC2038062BC4D5C2003132AF /* #8 */ = {
+		AC2038062BC4D5C2003132AF /* #8~9 */ = {
 			isa = PBXGroup;
 			children = (
 				AC2038092BC4D76B003132AF /* ContentView8.swift */,
 				AC20380D2BC4DB6D003132AF /* ProjectCardView8.swift */,
 				AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */,
 			);
-			path = "#8";
+			path = "#8~9";
 			sourceTree = "<group>";
 		};
 		AC8B74B62BBFCAE9003504C3 = {
@@ -160,7 +160,7 @@
 				AC8B75022BBFDCA3003504C3 /* #5 */,
 				AC8B75072BBFDCD1003504C3 /* #6 */,
 				AC8B75152BBFE196003504C3 /* #7 */,
-				AC2038062BC4D5C2003132AF /* #8 */,
+				AC2038062BC4D5C2003132AF /* #8~9 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
