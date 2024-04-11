@@ -61,7 +61,7 @@ struct IndexContentView: View {
                     }
                 }
                 
-                Section(header: Text("Layout#8")) {
+                Section(header: Text("Layout#8~9")) {
                     ForEach(Constants.section6, id: \.self) { item in
                         NavigationLink(destination: ContentView8()) {
                             Text(item)
