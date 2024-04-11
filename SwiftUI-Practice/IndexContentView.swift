@@ -14,6 +14,7 @@ enum Constants {
     static let section4 = ["Image 기초 및 속성"]
     static let section5 = ["VStackView", "HStackView", "ZStackView"]
     static let section6 = ["Layout 기초"]
+    static let section7 = ["Geometry-Reader 기초1", "Geometry-Reader 기초2"]
 }
 
 struct IndexContentView: View {
@@ -55,7 +56,7 @@ struct IndexContentView: View {
                 
                 Section(header: Text("Stack#7")) {
                     ForEach(Constants.section5, id: \.self) { item in
-                        NavigationLink(destination: determineDestination(item: item)) {
+                        NavigationLink(destination: chapter7DetermineDestination(item: item)) {
                             Text(item)
                         }
                     }
@@ -68,13 +69,21 @@ struct IndexContentView: View {
                         }
                     }
                 }
+                
+                Section(header: Text("GeometryReader#12")) {
+                    ForEach(Constants.section7, id: \.self) { item in
+                        NavigationLink(destination: chapter12DetermineDestination(item: item)) {
+                            Text(item)
+                        }
+                    }
+                }
             }
             .navigationBarTitle("SwiftUI-Practice")
         }
     }
 }
 
-func determineDestination(item: String) -> some View {
+func chapter7DetermineDestination(item: String) -> some View {
         switch item {
         case "VStackView":
             return AnyView(VStackView7())
@@ -87,6 +96,17 @@ func determineDestination(item: String) -> some View {
         }
     }
 
+
+func chapter12DetermineDestination(item: String) -> some View {
+        switch item {
+        case "Geometry-Reader 기초1":
+            return AnyView(ContentView12())
+        case "Geometry-Reader 기초2":
+            return AnyView(ContentView12_2())
+        default:
+            return AnyView(EmptyView()) // Default case, do nothing
+        }
+    }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         IndexContentView()
