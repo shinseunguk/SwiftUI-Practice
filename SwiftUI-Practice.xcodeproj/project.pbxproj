@@ -19,6 +19,9 @@
 		AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
+		AC85D5AC2BC7767000F4AE36 /* NavigationView11.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */; };
+		AC85D5AD2BC7767000F4AE36 /* NavigationView11.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */; };
+		AC85D5AE2BC7767000F4AE36 /* NavigationView11.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */; };
 		AC8B74C32BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B74C22BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift */; };
 		AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B74C42BBFCAE9003504C3 /* IndexContentView.swift */; };
 		AC8B74C72BBFCAEB003504C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8B74C62BBFCAEB003504C3 /* Assets.xcassets */; };
@@ -77,6 +80,7 @@
 		AC20380D2BC4DB6D003132AF /* ProjectCardView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView8.swift; sourceTree = "<group>"; };
 		AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectBasicView8.swift; sourceTree = "<group>"; };
 		AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView10.swift; sourceTree = "<group>"; };
+		AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView11.swift; sourceTree = "<group>"; };
 		AC8B74BF2BBFCAE9003504C3 /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8B74C22BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		AC8B74C42BBFCAE9003504C3 /* IndexContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexContentView.swift; sourceTree = "<group>"; };
@@ -123,15 +127,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC2038062BC4D5C2003132AF /* #8~10 */ = {
+		AC2038062BC4D5C2003132AF /* #8~11 */ = {
 			isa = PBXGroup;
 			children = (
 				AC2038092BC4D76B003132AF /* ContentView8.swift */,
 				AC20380D2BC4DB6D003132AF /* ProjectCardView8.swift */,
 				AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */,
 				AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */,
+				AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */,
 			);
-			path = "#8~10";
+			path = "#8~11";
 			sourceTree = "<group>";
 		};
 		AC8B74B62BBFCAE9003504C3 = {
@@ -165,7 +170,7 @@
 				AC8B75022BBFDCA3003504C3 /* #5 */,
 				AC8B75072BBFDCD1003504C3 /* #6 */,
 				AC8B75152BBFE196003504C3 /* #7 */,
-				AC2038062BC4D5C2003132AF /* #8~10 */,
+				AC2038062BC4D5C2003132AF /* #8~11 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -384,6 +389,7 @@
 				AC2038122BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC8B75172BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC8B74FB2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
+				AC85D5AC2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC8B750D2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +403,7 @@
 				AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC8B74D42BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift in Sources */,
 				AC8B74EF2BBFD71E003504C3 /* ContentView1.swift in Sources */,
+				AC85D5AD2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC8B75182BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC8B75002BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				AC8B751C2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
@@ -427,6 +434,7 @@
 				AC2038142BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC8B75192BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC8B74FD2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
+				AC85D5AE2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
