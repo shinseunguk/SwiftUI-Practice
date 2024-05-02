@@ -16,14 +16,15 @@ struct ContentView13: View {
         
         ZStack {
             bgColor
-//                .edgesIgnoringSafeArea(.top)
+                .edgesIgnoringSafeArea(.all)
             
             Text(title)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
                 .font(.system(size: 32))
         }
-    }
+        .animation(.none)
+   }
 }
 
 #Preview {
