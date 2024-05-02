@@ -13,6 +13,9 @@
 		AC11F4CB2BCD07CB007EECBB /* ContentView13.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4CA2BCD07CB007EECBB /* ContentView13.swift */; };
 		AC11F4CC2BCD07CB007EECBB /* ContentView13.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4CA2BCD07CB007EECBB /* ContentView13.swift */; };
 		AC11F4CD2BCD07CB007EECBB /* ContentView13.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4CA2BCD07CB007EECBB /* ContentView13.swift */; };
+		AC11F4D82BCD1CA1007EECBB /* TabView14.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4D72BCD1CA1007EECBB /* TabView14.swift */; };
+		AC11F4D92BCD1CA1007EECBB /* TabView14.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4D72BCD1CA1007EECBB /* TabView14.swift */; };
+		AC11F4DA2BCD1CA1007EECBB /* TabView14.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4D72BCD1CA1007EECBB /* TabView14.swift */; };
 		AC20380A2BC4D76B003132AF /* ContentView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038092BC4D76B003132AF /* ContentView8.swift */; };
 		AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038092BC4D76B003132AF /* ContentView8.swift */; };
 		AC20380C2BC4D76B003132AF /* ContentView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038092BC4D76B003132AF /* ContentView8.swift */; };
@@ -90,6 +93,7 @@
 /* Begin PBXFileReference section */
 		AC11F4C62BCD0454007EECBB /* TabView13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView13.swift; sourceTree = "<group>"; };
 		AC11F4CA2BCD07CB007EECBB /* ContentView13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView13.swift; sourceTree = "<group>"; };
+		AC11F4D72BCD1CA1007EECBB /* TabView14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView14.swift; sourceTree = "<group>"; };
 		AC2038092BC4D76B003132AF /* ContentView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView8.swift; sourceTree = "<group>"; };
 		AC20380D2BC4DB6D003132AF /* ProjectCardView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView8.swift; sourceTree = "<group>"; };
 		AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectBasicView8.swift; sourceTree = "<group>"; };
@@ -152,6 +156,14 @@
 			path = "#13";
 			sourceTree = "<group>";
 		};
+		AC11F4D62BCD1BAB007EECBB /* #14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC11F4D72BCD1CA1007EECBB /* TabView14.swift */,
+			);
+			path = "#14";
+			sourceTree = "<group>";
+		};
 		AC2038062BC4D5C2003132AF /* #8~11 */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +219,7 @@
 				AC2038062BC4D5C2003132AF /* #8~11 */,
 				AC85D5AF2BC7C1CB00F4AE36 /* #12 */,
 				AC11F4C52BCD0440007EECBB /* #13 */,
+				AC11F4D62BCD1BAB007EECBB /* #14 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -425,6 +438,7 @@
 				AC2038122BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC85D5B52BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
 				AC8B75172BBFE1A1003504C3 /* VStackView7.swift in Sources */,
+				AC11F4D82BCD1CA1007EECBB /* TabView14.swift in Sources */,
 				AC11F4CB2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC8B74FB2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC85D5AC2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
@@ -439,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2038132BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
+				AC11F4D92BCD1CA1007EECBB /* TabView14.swift in Sources */,
 				AC20380F2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
 				AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC8B74D42BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift in Sources */,
@@ -478,6 +493,7 @@
 				AC2038142BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC85D5B72BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
 				AC8B75192BBFE1A1003504C3 /* VStackView7.swift in Sources */,
+				AC11F4DA2BCD1CA1007EECBB /* TabView14.swift in Sources */,
 				AC11F4CD2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC8B74FD2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC85D5AE2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
