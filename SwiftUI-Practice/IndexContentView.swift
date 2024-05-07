@@ -16,7 +16,7 @@ enum Constants {
     static let section6 = ["Layout 기초"]
     static let section7 = ["Geometry-Reader 기초1", "Geometry-Reader 기초2"]
     static let section8 = ["Tabbar 기초1", "Tabbar 기초2"]
-    static let section9 = ["QR 코드 리더"]
+    static let section9 = ["QR 코드 리더", "로또 번호 생성기"]
 }
 
 struct IndexContentView: View {
@@ -88,9 +88,9 @@ struct IndexContentView: View {
                     }
                 }
                 
-                Section(header: Text("Tabbar#15")) {
+                Section(header: Text("Lotto#15")) {
                     ForEach(Constants.section9, id: \.self) { item in
-                        NavigationLink(destination: ContentView15()) {
+                        NavigationLink(destination: chapter15DetermineDestination(item: item)) {
                             Text(item)
                         }
                     }
@@ -132,6 +132,17 @@ func chapter13DetermineDestination(item: String) -> some View {
         return AnyView(TabView13())
     case "Tabbar 기초2":
         return AnyView(TabView14(tabIndex: .home))
+    default:
+        return AnyView(EmptyView()) // Default case, do nothing
+    }
+}
+
+func chapter15DetermineDestination(item: String) -> some View {
+    switch item {
+    case "QR 코드 리더":
+        return AnyView(ContentView15())
+    case "로또 번호 생성기":
+        return AnyView(LottoGenie15())
     default:
         return AnyView(EmptyView()) // Default case, do nothing
     }
