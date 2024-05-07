@@ -50,6 +50,12 @@
 		AC2557002BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556FF2BEA0556002BB8FA /* BlurButtonStyle.swift */; };
 		AC2557012BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556FF2BEA0556002BB8FA /* BlurButtonStyle.swift */; };
 		AC2557022BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556FF2BEA0556002BB8FA /* BlurButtonStyle.swift */; };
+		AC25570F2BEA11E1002BB8FA /* ContentView18.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25570E2BEA11E1002BB8FA /* ContentView18.swift */; };
+		AC2557102BEA11E1002BB8FA /* ContentView18.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25570E2BEA11E1002BB8FA /* ContentView18.swift */; };
+		AC2557112BEA11E1002BB8FA /* ContentView18.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25570E2BEA11E1002BB8FA /* ContentView18.swift */; };
+		AC2557132BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557122BEA134D002BB8FA /* RoundTextFieldStyle.swift */; };
+		AC2557142BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557122BEA134D002BB8FA /* RoundTextFieldStyle.swift */; };
+		AC2557152BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557122BEA134D002BB8FA /* RoundTextFieldStyle.swift */; };
 		AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
@@ -132,6 +138,8 @@
 		AC2556F72BE9F8B4002BB8FA /* ReductionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReductionButtonStyle.swift; sourceTree = "<group>"; };
 		AC2556FB2BEA01F5002BB8FA /* RotationButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationButtonStyle.swift; sourceTree = "<group>"; };
 		AC2556FF2BEA0556002BB8FA /* BlurButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurButtonStyle.swift; sourceTree = "<group>"; };
+		AC25570E2BEA11E1002BB8FA /* ContentView18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView18.swift; sourceTree = "<group>"; };
+		AC2557122BEA134D002BB8FA /* RoundTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextFieldStyle.swift; sourceTree = "<group>"; };
 		AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView10.swift; sourceTree = "<group>"; };
 		AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView11.swift; sourceTree = "<group>"; };
 		AC85D5B02BC7C1D800F4AE36 /* ContentView12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView12.swift; sourceTree = "<group>"; };
@@ -243,6 +251,15 @@
 			path = "#17";
 			sourceTree = "<group>";
 		};
+		AC25570D2BEA11D4002BB8FA /* #18 */ = {
+			isa = PBXGroup;
+			children = (
+				AC25570E2BEA11E1002BB8FA /* ContentView18.swift */,
+				AC2557122BEA134D002BB8FA /* RoundTextFieldStyle.swift */,
+			);
+			path = "#18";
+			sourceTree = "<group>";
+		};
 		AC85D5AF2BC7C1CB00F4AE36 /* #12 */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +308,7 @@
 				AC11F4D62BCD1BAB007EECBB /* #14 */,
 				AC2556C82BE49C8B002BB8FA /* #16 */,
 				AC2556EE2BE9F2A6002BB8FA /* #17 */,
+				AC25570D2BEA11D4002BB8FA /* #18 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -532,9 +550,11 @@
 				AC11F4CB2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC2556CA2BE49CA2002BB8FA /* ContentView16.swift in Sources */,
 				AC8B74FB2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
+				AC2557132BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
 				AC85D5AC2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC11F4C72BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC2556DA2BE4B860002BB8FA /* QRCodeScannerView.swift in Sources */,
+				AC25570F2BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC85D5B12BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC8B750D2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 			);
@@ -553,7 +573,9 @@
 				AC2556F12BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
 				AC8B74EF2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC85D5B62BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
+				AC2557102BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC2556F52BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
+				AC2557142BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
 				AC85D5AD2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC2556FD2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC8B75182BBFE1A1003504C3 /* VStackView7.swift in Sources */,
@@ -586,6 +608,7 @@
 				AC8B74F02BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B750B2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC8B74E02BBFCAEB003504C3 /* SwiftUI_PracticeUITestsLaunchTests.swift in Sources */,
+				AC2557152BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
 				AC2556F62BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
 				AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
@@ -602,6 +625,7 @@
 				AC8B74FD2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC85D5AE2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC11F4C92BCD0454007EECBB /* TabView13.swift in Sources */,
+				AC2557112BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC85D5B32BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC2556FA2BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
 				AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
