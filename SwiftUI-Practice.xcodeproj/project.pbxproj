@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2F98FB32BEA5BD000F7B2A7 /* ContentView20.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F98FB22BEA5BD000F7B2A7 /* ContentView20.swift */; };
+		A2F98FB42BEA5BD000F7B2A7 /* ContentView20.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F98FB22BEA5BD000F7B2A7 /* ContentView20.swift */; };
+		A2F98FB52BEA5BD000F7B2A7 /* ContentView20.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F98FB22BEA5BD000F7B2A7 /* ContentView20.swift */; };
 		AC11F4C72BCD0454007EECBB /* TabView13.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4C62BCD0454007EECBB /* TabView13.swift */; };
 		AC11F4C82BCD0454007EECBB /* TabView13.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4C62BCD0454007EECBB /* TabView13.swift */; };
 		AC11F4C92BCD0454007EECBB /* TabView13.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4C62BCD0454007EECBB /* TabView13.swift */; };
@@ -122,6 +125,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2F98FB22BEA5BD000F7B2A7 /* ContentView20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView20.swift; sourceTree = "<group>"; };
 		AC11F4C62BCD0454007EECBB /* TabView13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView13.swift; sourceTree = "<group>"; };
 		AC11F4CA2BCD07CB007EECBB /* ContentView13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView13.swift; sourceTree = "<group>"; };
 		AC11F4D72BCD1CA1007EECBB /* TabView14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView14.swift; sourceTree = "<group>"; };
@@ -193,6 +197,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2F98FB12BEA5BC300F7B2A7 /* #20 */ = {
+			isa = PBXGroup;
+			children = (
+				A2F98FB22BEA5BD000F7B2A7 /* ContentView20.swift */,
+			);
+			path = "#20";
+			sourceTree = "<group>";
+		};
 		AC11F4C52BCD0440007EECBB /* #13 */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +321,7 @@
 				AC2556C82BE49C8B002BB8FA /* #16 */,
 				AC2556EE2BE9F2A6002BB8FA /* #17 */,
 				AC25570D2BEA11D4002BB8FA /* #18 */,
+				A2F98FB12BEA5BC300F7B2A7 /* #20 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -532,6 +545,7 @@
 				AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */,
 				AC8B751B2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC20380A2BC4D76B003132AF /* ContentView8.swift in Sources */,
+				A2F98FB32BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC8B74EE2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B75092BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC2557002BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
@@ -576,6 +590,7 @@
 				AC2557102BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC2556F52BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
 				AC2557142BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
+				A2F98FB42BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC85D5AD2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC2556FD2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC8B75182BBFE1A1003504C3 /* VStackView7.swift in Sources */,
@@ -627,6 +642,7 @@
 				AC11F4C92BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC2557112BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC85D5B32BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
+				A2F98FB52BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC2556FA2BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
 				AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 				AC2556ED2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
