@@ -32,6 +32,9 @@
 		AC2556DA2BE4B860002BB8FA /* QRCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556D92BE4B860002BB8FA /* QRCodeScannerView.swift */; };
 		AC2556DC2BE4CC9C002BB8FA /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = AC2556DB2BE4CC9C002BB8FA /* CodeScanner */; };
 		AC2556DF2BE4CCAB002BB8FA /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = AC2556DE2BE4CCAB002BB8FA /* CodeScanner */; };
+		AC2556EB2BE9CC14002BB8FA /* LottoGenie15.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556EA2BE9CC14002BB8FA /* LottoGenie15.swift */; };
+		AC2556EC2BE9CC14002BB8FA /* LottoGenie15.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556EA2BE9CC14002BB8FA /* LottoGenie15.swift */; };
+		AC2556ED2BE9CC14002BB8FA /* LottoGenie15.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556EA2BE9CC14002BB8FA /* LottoGenie15.swift */; };
 		AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
@@ -108,6 +111,7 @@
 		AC2556D92BE4B860002BB8FA /* QRCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerView.swift; sourceTree = "<group>"; };
 		AC2556E02BE4D085002BB8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AC2556E12BE4D0E6002BB8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC2556EA2BE9CC14002BB8FA /* LottoGenie15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoGenie15.swift; sourceTree = "<group>"; };
 		AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView10.swift; sourceTree = "<group>"; };
 		AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView11.swift; sourceTree = "<group>"; };
 		AC85D5B02BC7C1D800F4AE36 /* ContentView12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView12.swift; sourceTree = "<group>"; };
@@ -195,6 +199,7 @@
 			children = (
 				AC2556C92BE49CA2002BB8FA /* ContentView15.swift */,
 				AC2556D92BE4B860002BB8FA /* QRCodeScannerView.swift */,
+				AC2556EA2BE9CC14002BB8FA /* LottoGenie15.swift */,
 			);
 			path = "#15";
 			sourceTree = "<group>";
@@ -483,6 +488,7 @@
 				AC8B74FF2BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				AC2038122BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC85D5B52BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
+				AC2556EB2BE9CC14002BB8FA /* LottoGenie15.swift in Sources */,
 				AC8B75172BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC11F4D82BCD1CA1007EECBB /* TabView14.swift in Sources */,
 				AC11F4CB2BCD07CB007EECBB /* ContentView13.swift in Sources */,
@@ -513,6 +519,7 @@
 				AC11F4C82BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC85D5B22BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC8B75002BBFD90B003504C3 /* MyWebview4.swift in Sources */,
+				AC2556EC2BE9CC14002BB8FA /* LottoGenie15.swift in Sources */,
 				AC8B751C2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC8B750A2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC8B75202BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
@@ -550,6 +557,7 @@
 				AC11F4C92BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC85D5B32BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
+				AC2556ED2BE9CC14002BB8FA /* LottoGenie15.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
