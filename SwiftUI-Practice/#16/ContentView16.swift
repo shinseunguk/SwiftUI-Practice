@@ -1,5 +1,5 @@
 //
-//  ContentView15.swift
+//  ContentView16.swift
 //  SwiftUI-Practice
 //
 //  Created by ukseung.dev on 5/3/24.
@@ -8,7 +8,7 @@
 import SwiftUI
 import CodeScanner
 
-struct ContentView15: View {
+struct ContentView16: View {
     
     @State private var scannedCode: String?
     @State private var isPresentingScanner = false
@@ -62,5 +62,5 @@ struct ContentView15: View {
 }
 
 #Preview {
-    ContentView15()
+    ContentView16()
 }

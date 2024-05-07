@@ -17,6 +17,7 @@ enum Constants {
     static let section7 = ["Geometry-Reader 기초1", "Geometry-Reader 기초2"]
     static let section8 = ["Tabbar 기초1", "Tabbar 기초2"]
     static let section9 = ["QR 코드 리더", "로또 번호 생성기"]
+    static let section10 = ["Button Style"]
 }
 
 struct IndexContentView: View {
@@ -95,6 +96,14 @@ struct IndexContentView: View {
                         }
                     }
                 }
+                
+                Section(header: Text("Button Style#17")) {
+                    ForEach(Constants.section10, id: \.self) { item in
+                        NavigationLink(destination: ContentView17()) {
+                            Text(item)
+                        }
+                    }
+                }
             }
             .navigationBarTitle("SwiftUI-Practice")
         }
@@ -140,9 +149,9 @@ func chapter13DetermineDestination(item: String) -> some View {
 func chapter15DetermineDestination(item: String) -> some View {
     switch item {
     case "QR 코드 리더":
-        return AnyView(ContentView15())
+        return AnyView(ContentView16())
     case "로또 번호 생성기":
-        return AnyView(LottoGenie15())
+        return AnyView(LottoGenie())
     default:
         return AnyView(EmptyView()) // Default case, do nothing
     }

@@ -1,5 +1,5 @@
 //
-//  LottoGenie15.swift
+//  LottoGenie.swift
 //  SwiftUI-Practice
 //
 //  Created by ukseung.dev on 5/7/24.
@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-struct LottoGenie15: View {
+struct LottoGenie: View {
     
     @State private var lottoNumbers = [Int]()
     
@@ -77,5 +77,5 @@ func getBackgroundColor(for number: Int) -> Color {
 }
 
 #Preview {
-    LottoGenie15()
+    LottoGenie()
 }
