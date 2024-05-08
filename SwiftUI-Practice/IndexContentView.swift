@@ -19,6 +19,7 @@ enum Constants {
     static let section9 = ["QR 코드 리더", "로또 번호 생성기"]
     static let section10 = ["Button Style"]
     static let section11 = ["Input TextField"]
+    static let section12 = ["PickerView 기초1", "PickerView 기초2"]
 }
 
 struct IndexContentView: View {
@@ -113,6 +114,14 @@ struct IndexContentView: View {
                         }
                     }
                 }
+                
+                Section(header: Text("PickerView#20")) {
+                    ForEach(Constants.section12, id: \.self) { item in
+                        NavigationLink(destination: chapter20DetermineDestination(item: item)) {
+                            Text(item)
+                        }
+                    }
+                }
             }
             .navigationBarTitle("SwiftUI-Practice")
         }
@@ -161,6 +170,17 @@ func chapter15DetermineDestination(item: String) -> some View {
         return AnyView(ContentView16())
     case "로또 번호 생성기":
         return AnyView(LottoGenie())
+    default:
+        return AnyView(EmptyView()) // Default case, do nothing
+    }
+}
+
+func chapter20DetermineDestination(item: String) -> some View {
+    switch item {
+    case "PickerView 기초1":
+        return AnyView(ContentView20())
+    case "PickerView 기초2":
+        return AnyView(ContentView20_2())
     default:
         return AnyView(EmptyView()) // Default case, do nothing
     }
