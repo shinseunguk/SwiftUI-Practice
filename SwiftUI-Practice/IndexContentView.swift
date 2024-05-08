@@ -117,7 +117,7 @@ struct IndexContentView: View {
                 
                 Section(header: Text("PickerView#20")) {
                     ForEach(Constants.section12, id: \.self) { item in
-                        NavigationLink(destination: ContentView20()) {
+                        NavigationLink(destination: chapter20DetermineDestination(item: item)) {
                             Text(item)
                         }
                     }
@@ -170,6 +170,17 @@ func chapter15DetermineDestination(item: String) -> some View {
         return AnyView(ContentView16())
     case "로또 번호 생성기":
         return AnyView(LottoGenie())
+    default:
+        return AnyView(EmptyView()) // Default case, do nothing
+    }
+}
+
+func chapter20DetermineDestination(item: String) -> some View {
+    switch item {
+    case "PickerView 기초1":
+        return AnyView(ContentView20())
+    case "PickerView 기초2":
+        return AnyView(ContentView20_2())
     default:
         return AnyView(EmptyView()) // Default case, do nothing
     }

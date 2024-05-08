@@ -59,6 +59,9 @@
 		AC2557132BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557122BEA134D002BB8FA /* RoundTextFieldStyle.swift */; };
 		AC2557142BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557122BEA134D002BB8FA /* RoundTextFieldStyle.swift */; };
 		AC2557152BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557122BEA134D002BB8FA /* RoundTextFieldStyle.swift */; };
+		AC25571D2BEB0019002BB8FA /* ContentView20_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25571C2BEB0019002BB8FA /* ContentView20_2.swift */; };
+		AC25571E2BEB0019002BB8FA /* ContentView20_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25571C2BEB0019002BB8FA /* ContentView20_2.swift */; };
+		AC25571F2BEB0019002BB8FA /* ContentView20_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25571C2BEB0019002BB8FA /* ContentView20_2.swift */; };
 		AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
@@ -144,6 +147,7 @@
 		AC2556FF2BEA0556002BB8FA /* BlurButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurButtonStyle.swift; sourceTree = "<group>"; };
 		AC25570E2BEA11E1002BB8FA /* ContentView18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView18.swift; sourceTree = "<group>"; };
 		AC2557122BEA134D002BB8FA /* RoundTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextFieldStyle.swift; sourceTree = "<group>"; };
+		AC25571C2BEB0019002BB8FA /* ContentView20_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView20_2.swift; sourceTree = "<group>"; };
 		AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView10.swift; sourceTree = "<group>"; };
 		AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView11.swift; sourceTree = "<group>"; };
 		AC85D5B02BC7C1D800F4AE36 /* ContentView12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView12.swift; sourceTree = "<group>"; };
@@ -201,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				A2F98FB22BEA5BD000F7B2A7 /* ContentView20.swift */,
+				AC25571C2BEB0019002BB8FA /* ContentView20_2.swift */,
 			);
 			path = "#20";
 			sourceTree = "<group>";
@@ -568,6 +573,7 @@
 				AC85D5AC2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC11F4C72BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC2556DA2BE4B860002BB8FA /* QRCodeScannerView.swift in Sources */,
+				AC25571D2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC25570F2BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC85D5B12BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC8B750D2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
@@ -593,6 +599,7 @@
 				A2F98FB42BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC85D5AD2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC2556FD2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
+				AC25571E2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC8B75182BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC11F4C82BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC85D5B22BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
@@ -640,6 +647,7 @@
 				AC8B74FD2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC85D5AE2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC11F4C92BCD0454007EECBB /* TabView13.swift in Sources */,
+				AC25571F2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC2557112BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC85D5B32BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				A2F98FB52BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
