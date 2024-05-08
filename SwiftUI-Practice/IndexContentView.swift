@@ -20,9 +20,12 @@ enum Constants {
     static let section10 = ["Button Style"]
     static let section11 = ["Input TextField"]
     static let section12 = ["PickerView 기초1", "PickerView 기초2"]
+    static let section13 = ["DeepLink 예제"]
 }
 
 struct IndexContentView: View {
+    
+    @State private var deeplinkIndex: String?
     
     var body: some View {
         NavigationView {
@@ -119,6 +122,33 @@ struct IndexContentView: View {
                     ForEach(Constants.section12, id: \.self) { item in
                         NavigationLink(destination: chapter20DetermineDestination(item: item)) {
                             Text(item)
+                        }
+                    }
+                }
+                
+                Section(header: Text("Deeplink#21")) {
+                    ForEach(Constants.section13, id: \.self) { item in
+                        
+                        NavigationLink(
+                            destination: ContentView21(),
+                            tag: "deeplink",
+                            selection: $deeplinkIndex
+                        ) {
+                            Text(item)
+                                .onOpenURL(perform: { url in
+                                    print(url)
+                                    
+                                    if let host = url.host {
+                                        if host.contains("deeplink") {
+                                            self.deeplinkIndex = "deeplink"
+                                            
+                                        } else {
+                                            print("포함 x")
+                                        }
+                                    } else {
+                                        print("nil")
+                                    }
+                                })
                         }
                     }
                 }

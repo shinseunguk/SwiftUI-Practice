@@ -62,6 +62,15 @@
 		AC25571D2BEB0019002BB8FA /* ContentView20_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25571C2BEB0019002BB8FA /* ContentView20_2.swift */; };
 		AC25571E2BEB0019002BB8FA /* ContentView20_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25571C2BEB0019002BB8FA /* ContentView20_2.swift */; };
 		AC25571F2BEB0019002BB8FA /* ContentView20_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25571C2BEB0019002BB8FA /* ContentView20_2.swift */; };
+		AC2557222BEB4617002BB8FA /* ContentView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557212BEB4617002BB8FA /* ContentView21.swift */; };
+		AC2557232BEB4617002BB8FA /* ContentView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557212BEB4617002BB8FA /* ContentView21.swift */; };
+		AC2557242BEB4617002BB8FA /* ContentView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557212BEB4617002BB8FA /* ContentView21.swift */; };
+		AC2557262BEB4C14002BB8FA /* ProfileView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557252BEB4C14002BB8FA /* ProfileView21.swift */; };
+		AC2557272BEB4C14002BB8FA /* ProfileView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557252BEB4C14002BB8FA /* ProfileView21.swift */; };
+		AC2557282BEB4C14002BB8FA /* ProfileView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557252BEB4C14002BB8FA /* ProfileView21.swift */; };
+		AC25572A2BEB5130002BB8FA /* ListView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557292BEB5130002BB8FA /* ListView21.swift */; };
+		AC25572B2BEB5130002BB8FA /* ListView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557292BEB5130002BB8FA /* ListView21.swift */; };
+		AC25572C2BEB5130002BB8FA /* ListView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557292BEB5130002BB8FA /* ListView21.swift */; };
 		AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
@@ -148,6 +157,9 @@
 		AC25570E2BEA11E1002BB8FA /* ContentView18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView18.swift; sourceTree = "<group>"; };
 		AC2557122BEA134D002BB8FA /* RoundTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextFieldStyle.swift; sourceTree = "<group>"; };
 		AC25571C2BEB0019002BB8FA /* ContentView20_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView20_2.swift; sourceTree = "<group>"; };
+		AC2557212BEB4617002BB8FA /* ContentView21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView21.swift; sourceTree = "<group>"; };
+		AC2557252BEB4C14002BB8FA /* ProfileView21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView21.swift; sourceTree = "<group>"; };
+		AC2557292BEB5130002BB8FA /* ListView21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView21.swift; sourceTree = "<group>"; };
 		AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView10.swift; sourceTree = "<group>"; };
 		AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView11.swift; sourceTree = "<group>"; };
 		AC85D5B02BC7C1D800F4AE36 /* ContentView12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView12.swift; sourceTree = "<group>"; };
@@ -277,6 +289,16 @@
 			path = "#18";
 			sourceTree = "<group>";
 		};
+		AC2557202BEB460A002BB8FA /* #21 */ = {
+			isa = PBXGroup;
+			children = (
+				AC2557212BEB4617002BB8FA /* ContentView21.swift */,
+				AC2557252BEB4C14002BB8FA /* ProfileView21.swift */,
+				AC2557292BEB5130002BB8FA /* ListView21.swift */,
+			);
+			name = "#21";
+			sourceTree = "<group>";
+		};
 		AC85D5AF2BC7C1CB00F4AE36 /* #12 */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +349,7 @@
 				AC2556EE2BE9F2A6002BB8FA /* #17 */,
 				AC25570D2BEA11D4002BB8FA /* #18 */,
 				A2F98FB12BEA5BC300F7B2A7 /* #20 */,
+				AC2557202BEB460A002BB8FA /* #21 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -545,6 +568,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2556F02BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
+				AC2557222BEB4617002BB8FA /* ContentView21.swift in Sources */,
 				AC20380E2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
 				AC8B75042BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */,
@@ -556,12 +580,14 @@
 				AC2557002BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
 				AC8B74C32BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift in Sources */,
 				AC2556FC2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
+				AC25572A2BEB5130002BB8FA /* ListView21.swift in Sources */,
 				AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				AC8B751F2BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC8B74FF2BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				AC2038122BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC2556F42BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
 				AC85D5B52BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
+				AC2557262BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC2556F82BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
 				AC2556EB2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
 				AC8B75172BBFE1A1003504C3 /* VStackView7.swift in Sources */,
@@ -591,6 +617,7 @@
 				AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC8B74D42BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift in Sources */,
 				AC2556F12BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
+				AC2557232BEB4617002BB8FA /* ContentView21.swift in Sources */,
 				AC8B74EF2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC85D5B62BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
 				AC2557102BEA11E1002BB8FA /* ContentView18.swift in Sources */,
@@ -603,6 +630,7 @@
 				AC8B75182BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC11F4C82BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC85D5B22BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
+				AC2557272BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC8B75002BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				AC2556EC2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
 				AC8B751C2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
@@ -611,6 +639,7 @@
 				AC8B75052BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				AC11F4CC2BCD07CB007EECBB /* ContentView13.swift in Sources */,
+				AC25572B2BEB5130002BB8FA /* ListView21.swift in Sources */,
 				AC2557012BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
 				AC8B750E2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 				AC8B74FC2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
@@ -627,6 +656,7 @@
 				AC8B74DE2BBFCAEB003504C3 /* SwiftUI_PracticeUITests.swift in Sources */,
 				AC8B751D2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC20380C2BC4D76B003132AF /* ContentView8.swift in Sources */,
+				AC2557282BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC8B74F02BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B750B2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC8B74E02BBFCAEB003504C3 /* SwiftUI_PracticeUITestsLaunchTests.swift in Sources */,
@@ -650,10 +680,12 @@
 				AC25571F2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC2557112BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC85D5B32BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
+				AC2557242BEB4617002BB8FA /* ContentView21.swift in Sources */,
 				A2F98FB52BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC2556FA2BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
 				AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 				AC2556ED2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
+				AC25572C2BEB5130002BB8FA /* ListView21.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
