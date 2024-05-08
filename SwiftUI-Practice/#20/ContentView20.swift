@@ -7,64 +7,77 @@
 
 import SwiftUI
 
+enum SagmentConstants {
+    case red
+    case green
+    case blue
+    
+    var index: Int {
+        switch self {
+        case .red:
+            return 0
+        case .green:
+            return 1
+        case .blue:
+            return 2
+        }
+    }
+    
+    var color: Color {
+        switch self {
+        case .red:
+            return .red
+        case .green:
+            return .green
+        case .blue:
+            return .blue
+        }
+    }
+    
+    var colorString: String {
+        switch self {
+        case .red:
+            return "레드"
+        case .green:
+            return "그린"
+        case .blue:
+            return "블루"
+        }
+    }
+}
+
 struct ContentView20: View {
-    @State var index: Int = 0
+    @State private var constants: SagmentConstants = .red
     
     var body: some View {
         VStack (spacing: 15){
             Circle()
-                .foregroundColor(getColor(index))
+                .foregroundColor(constants.color)
                 .frame(width: 50, height: 50)
             
-            Text("세그먼트 value: \(index)")
-            Text("선택된 색깔: \(getColorString(index))")
+            Text("세그먼트 value: \(constants.index)")
+            Text("선택된 색깔: \(constants.colorString)")
             
             HStack (spacing: 20){
                 Spacer()
-                Picker("What is your favorite color?", selection: $index) {
-                    Text("레드").tag(0)
-                    Text("그린").tag(1)
-                    Text("블루").tag(2)
+                Picker("What is your favorite color?", selection: $constants) {
+                    Text(SagmentConstants.red.colorString).tag(SagmentConstants.red)
+                    Text(SagmentConstants.green.colorString).tag(SagmentConstants.green)
+                    Text(SagmentConstants.blue.colorString).tag(SagmentConstants.blue)
                 }
                 .pickerStyle(.segmented)
                 Spacer()
             }
             
-            Picker("asd", selection: $index) {
-                Text("레드").tag(0)
-                Text("그린").tag(1)
-                Text("블루").tag(2)
+            Picker("asd", selection: $constants) {
+                Text(SagmentConstants.red.colorString).tag(SagmentConstants.red)
+                Text(SagmentConstants.green.colorString).tag(SagmentConstants.green)
+                Text(SagmentConstants.blue.colorString).tag(SagmentConstants.blue)
             }
             .pickerStyle(.wheel)
             .frame(width: 100)
             
         }
-    }
-}
-
-func getColor(_ index: Int) -> Color {
-    switch index {
-    case 0:
-        return .red
-    case 1:
-        return .green
-    case 2:
-        return .blue
-    default:
-        return .clear
-    }
-}
-
-func getColorString(_ index: Int) -> String {
-    switch index {
-    case 0:
-        return "레드"
-    case 1:
-        return "그린"
-    case 2:
-        return "블루"
-    default:
-        return ""
     }
 }
 
