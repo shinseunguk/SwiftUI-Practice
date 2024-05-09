@@ -71,6 +71,9 @@
 		AC25572A2BEB5130002BB8FA /* ListView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557292BEB5130002BB8FA /* ListView21.swift */; };
 		AC25572B2BEB5130002BB8FA /* ListView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557292BEB5130002BB8FA /* ListView21.swift */; };
 		AC25572C2BEB5130002BB8FA /* ListView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557292BEB5130002BB8FA /* ListView21.swift */; };
+		AC5F535A2BEC5539002614FB /* ContentView22.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F53592BEC5539002614FB /* ContentView22.swift */; };
+		AC5F535B2BEC5539002614FB /* ContentView22.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F53592BEC5539002614FB /* ContentView22.swift */; };
+		AC5F535C2BEC5539002614FB /* ContentView22.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F53592BEC5539002614FB /* ContentView22.swift */; };
 		AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
@@ -160,6 +163,7 @@
 		AC2557212BEB4617002BB8FA /* ContentView21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView21.swift; sourceTree = "<group>"; };
 		AC2557252BEB4C14002BB8FA /* ProfileView21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView21.swift; sourceTree = "<group>"; };
 		AC2557292BEB5130002BB8FA /* ListView21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView21.swift; sourceTree = "<group>"; };
+		AC5F53592BEC5539002614FB /* ContentView22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView22.swift; sourceTree = "<group>"; };
 		AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView10.swift; sourceTree = "<group>"; };
 		AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView11.swift; sourceTree = "<group>"; };
 		AC85D5B02BC7C1D800F4AE36 /* ContentView12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView12.swift; sourceTree = "<group>"; };
@@ -299,6 +303,14 @@
 			name = "#21";
 			sourceTree = "<group>";
 		};
+		AC5F53582BEC552C002614FB /* #22 */ = {
+			isa = PBXGroup;
+			children = (
+				AC5F53592BEC5539002614FB /* ContentView22.swift */,
+			);
+			path = "#22";
+			sourceTree = "<group>";
+		};
 		AC85D5AF2BC7C1CB00F4AE36 /* #12 */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,6 +362,7 @@
 				AC25570D2BEA11D4002BB8FA /* #18 */,
 				A2F98FB12BEA5BC300F7B2A7 /* #20 */,
 				AC2557202BEB460A002BB8FA /* #21 */,
+				AC5F53582BEC552C002614FB /* #22 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -602,6 +615,7 @@
 				AC25571D2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC25570F2BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC85D5B12BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
+				AC5F535A2BEC5539002614FB /* ContentView22.swift in Sources */,
 				AC8B750D2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +627,7 @@
 				AC2038132BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC2556CB2BE49CA2002BB8FA /* ContentView16.swift in Sources */,
 				AC11F4D92BCD1CA1007EECBB /* TabView14.swift in Sources */,
+				AC5F535B2BEC5539002614FB /* ContentView22.swift in Sources */,
 				AC20380F2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
 				AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC8B74D42BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift in Sources */,
@@ -659,6 +674,7 @@
 				AC2557282BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC8B74F02BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B750B2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
+				AC5F535C2BEC5539002614FB /* ContentView22.swift in Sources */,
 				AC8B74E02BBFCAEB003504C3 /* SwiftUI_PracticeUITestsLaunchTests.swift in Sources */,
 				AC2557152BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
 				AC2556F62BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
