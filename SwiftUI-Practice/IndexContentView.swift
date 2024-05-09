@@ -21,6 +21,7 @@ enum Constants {
     static let section11 = ["Input TextField"]
     static let section12 = ["PickerView 기초1", "PickerView 기초2"]
     static let section13 = ["DeepLink 예제"]
+    static let section14 = ["Menu 예제"]
 }
 
 struct IndexContentView: View {
@@ -149,6 +150,14 @@ struct IndexContentView: View {
                                         print("nil")
                                     }
                                 })
+                        }
+                    }
+                }
+                
+                Section(header: Text("Menu#22")) {
+                    ForEach(Constants.section14, id: \.self) { item in
+                        NavigationLink(destination: ContentView22()) {
+                            Text(item)
                         }
                     }
                 }
