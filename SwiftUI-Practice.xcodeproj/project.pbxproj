@@ -28,6 +28,15 @@
 		AC2038122BC4DC04003132AF /* ProjectBasicView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */; };
 		AC2038132BC4DC04003132AF /* ProjectBasicView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */; };
 		AC2038142BC4DC04003132AF /* ProjectBasicView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */; };
+		AC20F3A22BFB1BE700ACF354 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A12BFB1BE700ACF354 /* Reducer.swift */; };
+		AC20F3A32BFB1BE700ACF354 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A12BFB1BE700ACF354 /* Reducer.swift */; };
+		AC20F3A42BFB1BE700ACF354 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A12BFB1BE700ACF354 /* Reducer.swift */; };
+		AC20F3A62BFB1F5A00ACF354 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A52BFB1F5A00ACF354 /* AppStore.swift */; };
+		AC20F3A72BFB1F5A00ACF354 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A52BFB1F5A00ACF354 /* AppStore.swift */; };
+		AC20F3A82BFB1F5A00ACF354 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A52BFB1F5A00ACF354 /* AppStore.swift */; };
+		AC20F3AA2BFB235500ACF354 /* DiceView24.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A92BFB235500ACF354 /* DiceView24.swift */; };
+		AC20F3AB2BFB235500ACF354 /* DiceView24.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A92BFB235500ACF354 /* DiceView24.swift */; };
+		AC20F3AC2BFB235500ACF354 /* DiceView24.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A92BFB235500ACF354 /* DiceView24.swift */; };
 		AC2556CA2BE49CA2002BB8FA /* ContentView16.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556C92BE49CA2002BB8FA /* ContentView16.swift */; };
 		AC2556CB2BE49CA2002BB8FA /* ContentView16.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556C92BE49CA2002BB8FA /* ContentView16.swift */; };
 		AC2556CC2BE49CA2002BB8FA /* ContentView16.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556C92BE49CA2002BB8FA /* ContentView16.swift */; };
@@ -74,6 +83,15 @@
 		AC5F535A2BEC5539002614FB /* ContentView22.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F53592BEC5539002614FB /* ContentView22.swift */; };
 		AC5F535B2BEC5539002614FB /* ContentView22.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F53592BEC5539002614FB /* ContentView22.swift */; };
 		AC5F535C2BEC5539002614FB /* ContentView22.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F53592BEC5539002614FB /* ContentView22.swift */; };
+		AC69D5F52BF34692004F25C8 /* ContentView24.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5F42BF34692004F25C8 /* ContentView24.swift */; };
+		AC69D5F62BF34692004F25C8 /* ContentView24.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5F42BF34692004F25C8 /* ContentView24.swift */; };
+		AC69D5F72BF34692004F25C8 /* ContentView24.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5F42BF34692004F25C8 /* ContentView24.swift */; };
+		AC69D5F92BF3523E004F25C8 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5F82BF3523E004F25C8 /* AppState.swift */; };
+		AC69D5FA2BF3523E004F25C8 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5F82BF3523E004F25C8 /* AppState.swift */; };
+		AC69D5FB2BF3523E004F25C8 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5F82BF3523E004F25C8 /* AppState.swift */; };
+		AC69D5FD2BF35286004F25C8 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5FC2BF35286004F25C8 /* AppAction.swift */; };
+		AC69D5FE2BF35286004F25C8 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5FC2BF35286004F25C8 /* AppAction.swift */; };
+		AC69D5FF2BF35286004F25C8 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5FC2BF35286004F25C8 /* AppAction.swift */; };
 		AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
@@ -148,6 +166,9 @@
 		AC2038092BC4D76B003132AF /* ContentView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView8.swift; sourceTree = "<group>"; };
 		AC20380D2BC4DB6D003132AF /* ProjectCardView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView8.swift; sourceTree = "<group>"; };
 		AC2038112BC4DC04003132AF /* ProjectBasicView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectBasicView8.swift; sourceTree = "<group>"; };
+		AC20F3A12BFB1BE700ACF354 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		AC20F3A52BFB1F5A00ACF354 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		AC20F3A92BFB235500ACF354 /* DiceView24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView24.swift; sourceTree = "<group>"; };
 		AC2556C92BE49CA2002BB8FA /* ContentView16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView16.swift; sourceTree = "<group>"; };
 		AC2556D92BE4B860002BB8FA /* QRCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerView.swift; sourceTree = "<group>"; };
 		AC2556E02BE4D085002BB8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -165,6 +186,9 @@
 		AC2557252BEB4C14002BB8FA /* ProfileView21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView21.swift; sourceTree = "<group>"; };
 		AC2557292BEB5130002BB8FA /* ListView21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView21.swift; sourceTree = "<group>"; };
 		AC5F53592BEC5539002614FB /* ContentView22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView22.swift; sourceTree = "<group>"; };
+		AC69D5F42BF34692004F25C8 /* ContentView24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView24.swift; sourceTree = "<group>"; };
+		AC69D5F82BF3523E004F25C8 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AC69D5FC2BF35286004F25C8 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
 		AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView10.swift; sourceTree = "<group>"; };
 		AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView11.swift; sourceTree = "<group>"; };
 		AC85D5B02BC7C1D800F4AE36 /* ContentView12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView12.swift; sourceTree = "<group>"; };
@@ -313,6 +337,19 @@
 			path = "#22";
 			sourceTree = "<group>";
 		};
+		AC69D5F32BF34685004F25C8 /* #24 */ = {
+			isa = PBXGroup;
+			children = (
+				AC69D5F42BF34692004F25C8 /* ContentView24.swift */,
+				AC69D5F82BF3523E004F25C8 /* AppState.swift */,
+				AC69D5FC2BF35286004F25C8 /* AppAction.swift */,
+				AC20F3A12BFB1BE700ACF354 /* Reducer.swift */,
+				AC20F3A52BFB1F5A00ACF354 /* AppStore.swift */,
+				AC20F3A92BFB235500ACF354 /* DiceView24.swift */,
+			);
+			path = "#24";
+			sourceTree = "<group>";
+		};
 		AC85D5AF2BC7C1CB00F4AE36 /* #12 */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +403,7 @@
 				AC2557202BEB460A002BB8FA /* #21 */,
 				AC5F53582BEC552C002614FB /* #22 */,
 				ACF69C922BECA20200A8C2D4 /* #23 */,
+				AC69D5F32BF34685004F25C8 /* #24 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -602,6 +640,7 @@
 				AC8B74EE2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B75092BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC2557002BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
+				AC69D5F92BF3523E004F25C8 /* AppState.swift in Sources */,
 				AC8B74C32BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift in Sources */,
 				AC2556FC2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC25572A2BEB5130002BB8FA /* ListView21.swift in Sources */,
@@ -618,14 +657,19 @@
 				AC8B75172BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC11F4D82BCD1CA1007EECBB /* TabView14.swift in Sources */,
 				AC11F4CB2BCD07CB007EECBB /* ContentView13.swift in Sources */,
+				AC69D5FD2BF35286004F25C8 /* AppAction.swift in Sources */,
+				AC20F3AA2BFB235500ACF354 /* DiceView24.swift in Sources */,
 				AC2556CA2BE49CA2002BB8FA /* ContentView16.swift in Sources */,
 				AC8B74FB2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC2557132BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
+				AC20F3A22BFB1BE700ACF354 /* Reducer.swift in Sources */,
 				AC85D5AC2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC11F4C72BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC2556DA2BE4B860002BB8FA /* QRCodeScannerView.swift in Sources */,
 				AC25571D2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
+				AC69D5F52BF34692004F25C8 /* ContentView24.swift in Sources */,
 				AC25570F2BEA11E1002BB8FA /* ContentView18.swift in Sources */,
+				AC20F3A62BFB1F5A00ACF354 /* AppStore.swift in Sources */,
 				AC85D5B12BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC5F535A2BEC5539002614FB /* ContentView22.swift in Sources */,
 				AC8B750D2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
@@ -644,8 +688,10 @@
 				AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC8B74D42BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift in Sources */,
 				AC2556F12BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
+				AC20F3AB2BFB235500ACF354 /* DiceView24.swift in Sources */,
 				AC2557232BEB4617002BB8FA /* ContentView21.swift in Sources */,
 				AC8B74EF2BBFD71E003504C3 /* ContentView1.swift in Sources */,
+				AC69D5F62BF34692004F25C8 /* ContentView24.swift in Sources */,
 				AC85D5B62BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
 				AC2557102BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC2556F52BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
@@ -654,9 +700,11 @@
 				AC85D5AD2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC2556FD2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC25571E2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
+				AC69D5FE2BF35286004F25C8 /* AppAction.swift in Sources */,
 				AC8B75182BBFE1A1003504C3 /* VStackView7.swift in Sources */,
 				AC11F4C82BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC85D5B22BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
+				AC20F3A32BFB1BE700ACF354 /* Reducer.swift in Sources */,
 				AC2557272BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC8B75002BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				AC2556EC2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
@@ -664,7 +712,9 @@
 				AC8B750A2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC8B75202BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC8B75052BBFDCAF003504C3 /* ContentView5.swift in Sources */,
+				AC20F3A72BFB1F5A00ACF354 /* AppStore.swift in Sources */,
 				AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */,
+				AC69D5FA2BF3523E004F25C8 /* AppState.swift in Sources */,
 				AC11F4CC2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC25572B2BEB5130002BB8FA /* ListView21.swift in Sources */,
 				AC2557012BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
@@ -685,19 +735,25 @@
 				AC20380C2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC2557282BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC8B74F02BBFD71E003504C3 /* ContentView1.swift in Sources */,
+				AC20F3AC2BFB235500ACF354 /* DiceView24.swift in Sources */,
+				AC20F3A82BFB1F5A00ACF354 /* AppStore.swift in Sources */,
 				AC8B750B2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC5F535C2BEC5539002614FB /* ContentView22.swift in Sources */,
 				AC8B74E02BBFCAEB003504C3 /* SwiftUI_PracticeUITestsLaunchTests.swift in Sources */,
 				AC2557152BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
+				AC69D5F72BF34692004F25C8 /* ContentView24.swift in Sources */,
 				AC2556F62BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
+				AC69D5FF2BF35286004F25C8 /* AppAction.swift in Sources */,
 				AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC2556FE2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC8B75012BBFD90B003504C3 /* MyWebview4.swift in Sources */,
+				AC20F3A42BFB1BE700ACF354 /* Reducer.swift in Sources */,
 				AC2038142BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC2556F22BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
 				AC85D5B72BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
 				AC8B75192BBFE1A1003504C3 /* VStackView7.swift in Sources */,
+				AC69D5FB2BF3523E004F25C8 /* AppState.swift in Sources */,
 				AC11F4DA2BCD1CA1007EECBB /* TabView14.swift in Sources */,
 				AC2557022BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
 				AC11F4CD2BCD07CB007EECBB /* ContentView13.swift in Sources */,
