@@ -37,6 +37,12 @@
 		AC20F3AA2BFB235500ACF354 /* DiceView24.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A92BFB235500ACF354 /* DiceView24.swift */; };
 		AC20F3AB2BFB235500ACF354 /* DiceView24.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A92BFB235500ACF354 /* DiceView24.swift */; };
 		AC20F3AC2BFB235500ACF354 /* DiceView24.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3A92BFB235500ACF354 /* DiceView24.swift */; };
+		AC20F3AF2BFB2E8F00ACF354 /* ContentView25.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3AE2BFB2E8F00ACF354 /* ContentView25.swift */; };
+		AC20F3B02BFB2E8F00ACF354 /* ContentView25.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3AE2BFB2E8F00ACF354 /* ContentView25.swift */; };
+		AC20F3B12BFB2E8F00ACF354 /* ContentView25.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3AE2BFB2E8F00ACF354 /* ContentView25.swift */; };
+		AC20F3B32BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3B22BFB2EE600ACF354 /* ContentViewModel25.swift */; };
+		AC20F3B42BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3B22BFB2EE600ACF354 /* ContentViewModel25.swift */; };
+		AC20F3B52BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20F3B22BFB2EE600ACF354 /* ContentViewModel25.swift */; };
 		AC2556CA2BE49CA2002BB8FA /* ContentView16.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556C92BE49CA2002BB8FA /* ContentView16.swift */; };
 		AC2556CB2BE49CA2002BB8FA /* ContentView16.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556C92BE49CA2002BB8FA /* ContentView16.swift */; };
 		AC2556CC2BE49CA2002BB8FA /* ContentView16.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2556C92BE49CA2002BB8FA /* ContentView16.swift */; };
@@ -138,6 +144,21 @@
 		AC8B751F2BBFE8A7003504C3 /* ZStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */; };
 		AC8B75202BBFE8A7003504C3 /* ZStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */; };
 		AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */; };
+		ACC8C8B32BFC883600E1AFAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8B22BFC883600E1AFAF /* User.swift */; };
+		ACC8C8B42BFC883600E1AFAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8B22BFC883600E1AFAF /* User.swift */; };
+		ACC8C8B52BFC883600E1AFAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8B22BFC883600E1AFAF /* User.swift */; };
+		ACC8C8B82BFC885C00E1AFAF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8B72BFC885C00E1AFAF /* API.swift */; };
+		ACC8C8B92BFC885C00E1AFAF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8B72BFC885C00E1AFAF /* API.swift */; };
+		ACC8C8BA2BFC885C00E1AFAF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8B72BFC885C00E1AFAF /* API.swift */; };
+		ACC8C8BC2BFC88CE00E1AFAF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8BB2BFC88CE00E1AFAF /* APIService.swift */; };
+		ACC8C8BD2BFC88CE00E1AFAF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8BB2BFC88CE00E1AFAF /* APIService.swift */; };
+		ACC8C8BE2BFC88CE00E1AFAF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8BB2BFC88CE00E1AFAF /* APIService.swift */; };
+		ACC8C8C12BFC8A0B00E1AFAF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ACC8C8C02BFC8A0B00E1AFAF /* Alamofire */; };
+		ACC8C8C42BFC93ED00E1AFAF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ACC8C8C32BFC93ED00E1AFAF /* Alamofire */; };
+		ACC8C8C62BFC93F100E1AFAF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ACC8C8C52BFC93F100E1AFAF /* Alamofire */; };
+		ACC8C8C82BFD79B000E1AFAF /* ProfileView25.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8C72BFD79B000E1AFAF /* ProfileView25.swift */; };
+		ACC8C8C92BFD79B000E1AFAF /* ProfileView25.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8C72BFD79B000E1AFAF /* ProfileView25.swift */; };
+		ACC8C8CA2BFD79B000E1AFAF /* ProfileView25.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8C72BFD79B000E1AFAF /* ProfileView25.swift */; };
 		ACF69C942BECA20B00A8C2D4 /* ContentView23.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */; };
 /* End PBXBuildFile section */
 
@@ -169,6 +190,8 @@
 		AC20F3A12BFB1BE700ACF354 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
 		AC20F3A52BFB1F5A00ACF354 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		AC20F3A92BFB235500ACF354 /* DiceView24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView24.swift; sourceTree = "<group>"; };
+		AC20F3AE2BFB2E8F00ACF354 /* ContentView25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView25.swift; sourceTree = "<group>"; };
+		AC20F3B22BFB2EE600ACF354 /* ContentViewModel25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel25.swift; sourceTree = "<group>"; };
 		AC2556C92BE49CA2002BB8FA /* ContentView16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView16.swift; sourceTree = "<group>"; };
 		AC2556D92BE4B860002BB8FA /* QRCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerView.swift; sourceTree = "<group>"; };
 		AC2556E02BE4D085002BB8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -212,6 +235,10 @@
 		AC8B75162BBFE1A1003504C3 /* VStackView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView7.swift; sourceTree = "<group>"; };
 		AC8B751A2BBFE6EE003504C3 /* HStackView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView7.swift; sourceTree = "<group>"; };
 		AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView7.swift; sourceTree = "<group>"; };
+		ACC8C8B22BFC883600E1AFAF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ACC8C8B72BFC885C00E1AFAF /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		ACC8C8BB2BFC88CE00E1AFAF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		ACC8C8C72BFD79B000E1AFAF /* ProfileView25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView25.swift; sourceTree = "<group>"; };
 		ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2556D42BE4B3A1002BB8FA /* CodeScanner in Frameworks */,
+				ACC8C8C12BFC8A0B00E1AFAF /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2556DC2BE4CC9C002BB8FA /* CodeScanner in Frameworks */,
+				ACC8C8C42BFC93ED00E1AFAF /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2556DF2BE4CCAB002BB8FA /* CodeScanner in Frameworks */,
+				ACC8C8C62BFC93F100E1AFAF /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +311,17 @@
 			path = "#8~11";
 			sourceTree = "<group>";
 		};
+		AC20F3AD2BFB2E8400ACF354 /* #25~27 */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8C8B62BFC884E00E1AFAF /* API */,
+				ACC8C8B12BFC881500E1AFAF /* Model */,
+				ACC8C8AF2BFC880900E1AFAF /* View */,
+				ACC8C8B02BFC880E00E1AFAF /* ViewModel */,
+			);
+			path = "#25~27";
+			sourceTree = "<group>";
+		};
 		AC2556C82BE49C8B002BB8FA /* #16 */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,13 +330,6 @@
 				AC2556EA2BE9CC14002BB8FA /* LottoGenie.swift */,
 			);
 			path = "#16";
-			sourceTree = "<group>";
-		};
-		AC2556DD2BE4CCAB002BB8FA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AC2556EE2BE9F2A6002BB8FA /* #17 */ = {
@@ -366,7 +400,7 @@
 				AC8B74D22BBFCAEB003504C3 /* SwiftUI-PracticeTests */,
 				AC8B74DC2BBFCAEB003504C3 /* SwiftUI-PracticeUITests */,
 				AC8B74C02BBFCAE9003504C3 /* Products */,
-				AC2556DD2BE4CCAB002BB8FA /* Frameworks */,
+				ACC8C8C22BFC93ED00E1AFAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -404,6 +438,7 @@
 				AC5F53582BEC552C002614FB /* #22 */,
 				ACF69C922BECA20200A8C2D4 /* #23 */,
 				AC69D5F32BF34685004F25C8 /* #24 */,
+				AC20F3AD2BFB2E8400ACF354 /* #25~27 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -479,6 +514,47 @@
 			path = "#7";
 			sourceTree = "<group>";
 		};
+		ACC8C8AF2BFC880900E1AFAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC20F3AE2BFB2E8F00ACF354 /* ContentView25.swift */,
+				ACC8C8C72BFD79B000E1AFAF /* ProfileView25.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACC8C8B02BFC880E00E1AFAF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC20F3B22BFB2EE600ACF354 /* ContentViewModel25.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ACC8C8B12BFC881500E1AFAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8C8B22BFC883600E1AFAF /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACC8C8B62BFC884E00E1AFAF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8C8B72BFC885C00E1AFAF /* API.swift */,
+				ACC8C8BB2BFC88CE00E1AFAF /* APIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		ACC8C8C22BFC93ED00E1AFAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACF69C922BECA20200A8C2D4 /* #23 */ = {
 			isa = PBXGroup;
 			children = (
@@ -505,6 +581,7 @@
 			name = "SwiftUI-Practice";
 			packageProductDependencies = (
 				AC2556D32BE4B3A1002BB8FA /* CodeScanner */,
+				ACC8C8C02BFC8A0B00E1AFAF /* Alamofire */,
 			);
 			productName = "SwiftUI-Practice";
 			productReference = AC8B74BF2BBFCAE9003504C3 /* SwiftUI-Practice.app */;
@@ -526,6 +603,7 @@
 			name = "SwiftUI-PracticeTests";
 			packageProductDependencies = (
 				AC2556DB2BE4CC9C002BB8FA /* CodeScanner */,
+				ACC8C8C32BFC93ED00E1AFAF /* Alamofire */,
 			);
 			productName = "SwiftUI-PracticeTests";
 			productReference = AC8B74CF2BBFCAEB003504C3 /* SwiftUI-PracticeTests.xctest */;
@@ -547,6 +625,7 @@
 			name = "SwiftUI-PracticeUITests";
 			packageProductDependencies = (
 				AC2556DE2BE4CCAB002BB8FA /* CodeScanner */,
+				ACC8C8C52BFC93F100E1AFAF /* Alamofire */,
 			);
 			productName = "SwiftUI-PracticeUITests";
 			productReference = AC8B74D92BBFCAEB003504C3 /* SwiftUI-PracticeUITests.xctest */;
@@ -586,6 +665,7 @@
 			mainGroup = AC8B74B62BBFCAE9003504C3;
 			packageReferences = (
 				AC2556D22BE4B3A1002BB8FA /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				ACC8C8BF2BFC8A0B00E1AFAF /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = AC8B74C02BBFCAE9003504C3 /* Products */;
 			projectDirPath = "";
@@ -631,6 +711,7 @@
 			files = (
 				AC2556F02BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
 				AC2557222BEB4617002BB8FA /* ContentView21.swift in Sources */,
+				ACC8C8B32BFC883600E1AFAF /* User.swift in Sources */,
 				AC20380E2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
 				AC8B75042BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */,
@@ -649,7 +730,9 @@
 				AC8B74FF2BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				AC2038122BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC2556F42BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
+				ACC8C8C82BFD79B000E1AFAF /* ProfileView25.swift in Sources */,
 				AC85D5B52BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
+				ACC8C8BC2BFC88CE00E1AFAF /* APIService.swift in Sources */,
 				AC2557262BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC2556F82BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
 				AC2556EB2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
@@ -658,8 +741,10 @@
 				AC11F4D82BCD1CA1007EECBB /* TabView14.swift in Sources */,
 				AC11F4CB2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC69D5FD2BF35286004F25C8 /* AppAction.swift in Sources */,
+				AC20F3B32BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */,
 				AC20F3AA2BFB235500ACF354 /* DiceView24.swift in Sources */,
 				AC2556CA2BE49CA2002BB8FA /* ContentView16.swift in Sources */,
+				AC20F3AF2BFB2E8F00ACF354 /* ContentView25.swift in Sources */,
 				AC8B74FB2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC2557132BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
 				AC20F3A22BFB1BE700ACF354 /* Reducer.swift in Sources */,
@@ -672,6 +757,7 @@
 				AC20F3A62BFB1F5A00ACF354 /* AppStore.swift in Sources */,
 				AC85D5B12BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC5F535A2BEC5539002614FB /* ContentView22.swift in Sources */,
+				ACC8C8B82BFC885C00E1AFAF /* API.swift in Sources */,
 				AC8B750D2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,6 +784,7 @@
 				AC2557142BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
 				A2F98FB42BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC85D5AD2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
+				ACC8C8BD2BFC88CE00E1AFAF /* APIService.swift in Sources */,
 				AC2556FD2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC25571E2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC69D5FE2BF35286004F25C8 /* AppAction.swift in Sources */,
@@ -705,18 +792,23 @@
 				AC11F4C82BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC85D5B22BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC20F3A32BFB1BE700ACF354 /* Reducer.swift in Sources */,
+				AC20F3B02BFB2E8F00ACF354 /* ContentView25.swift in Sources */,
 				AC2557272BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC8B75002BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				AC2556EC2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
 				AC8B751C2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC8B750A2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC8B75202BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
+				ACC8C8B42BFC883600E1AFAF /* User.swift in Sources */,
 				AC8B75052BBFDCAF003504C3 /* ContentView5.swift in Sources */,
+				ACC8C8B92BFC885C00E1AFAF /* API.swift in Sources */,
 				AC20F3A72BFB1F5A00ACF354 /* AppStore.swift in Sources */,
 				AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				AC69D5FA2BF3523E004F25C8 /* AppState.swift in Sources */,
+				ACC8C8C92BFD79B000E1AFAF /* ProfileView25.swift in Sources */,
 				AC11F4CC2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC25572B2BEB5130002BB8FA /* ListView21.swift in Sources */,
+				AC20F3B42BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */,
 				AC2557012BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
 				AC8B750E2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 				AC8B74FC2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
@@ -733,6 +825,7 @@
 				AC8B74DE2BBFCAEB003504C3 /* SwiftUI_PracticeUITests.swift in Sources */,
 				AC8B751D2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC20380C2BC4D76B003132AF /* ContentView8.swift in Sources */,
+				AC20F3B12BFB2E8F00ACF354 /* ContentView25.swift in Sources */,
 				AC2557282BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC8B74F02BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC20F3AC2BFB235500ACF354 /* DiceView24.swift in Sources */,
@@ -748,7 +841,9 @@
 				AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC2556FE2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC8B75012BBFD90B003504C3 /* MyWebview4.swift in Sources */,
+				AC20F3B52BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */,
 				AC20F3A42BFB1BE700ACF354 /* Reducer.swift in Sources */,
+				ACC8C8B52BFC883600E1AFAF /* User.swift in Sources */,
 				AC2038142BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC2556F22BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
 				AC85D5B72BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
@@ -758,13 +853,16 @@
 				AC2557022BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
 				AC11F4CD2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC2556CC2BE49CA2002BB8FA /* ContentView16.swift in Sources */,
+				ACC8C8CA2BFD79B000E1AFAF /* ProfileView25.swift in Sources */,
 				AC8B74FD2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC85D5AE2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC11F4C92BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC25571F2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC2557112BEA11E1002BB8FA /* ContentView18.swift in Sources */,
+				ACC8C8BA2BFC885C00E1AFAF /* API.swift in Sources */,
 				AC85D5B32BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC2557242BEB4617002BB8FA /* ContentView21.swift in Sources */,
+				ACC8C8BE2BFC88CE00E1AFAF /* APIService.swift in Sources */,
 				A2F98FB52BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC2556FA2BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
 				AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
@@ -1098,6 +1196,14 @@
 				minimumVersion = 2.4.1;
 			};
 		};
+		ACC8C8BF2BFC8A0B00E1AFAF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1115,6 +1221,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AC2556D22BE4B3A1002BB8FA /* XCRemoteSwiftPackageReference "CodeScanner" */;
 			productName = CodeScanner;
+		};
+		ACC8C8C02BFC8A0B00E1AFAF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACC8C8BF2BFC8A0B00E1AFAF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		ACC8C8C32BFC93ED00E1AFAF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACC8C8BF2BFC8A0B00E1AFAF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		ACC8C8C52BFC93F100E1AFAF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACC8C8BF2BFC8A0B00E1AFAF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
