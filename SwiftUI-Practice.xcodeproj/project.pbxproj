@@ -162,6 +162,9 @@
 		ACC8C8CD2BFDAD7600E1AFAF /* ContentView28.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */; };
 		ACC8C8CE2BFDAD7600E1AFAF /* ContentView28.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */; };
 		ACC8C8CF2BFDAD7600E1AFAF /* ContentView28.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */; };
+		ACC8C8D22BFDB4CF00E1AFAF /* ContentView29.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D12BFDB4CF00E1AFAF /* ContentView29.swift */; };
+		ACC8C8D32BFDB4CF00E1AFAF /* ContentView29.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D12BFDB4CF00E1AFAF /* ContentView29.swift */; };
+		ACC8C8D42BFDB4CF00E1AFAF /* ContentView29.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D12BFDB4CF00E1AFAF /* ContentView29.swift */; };
 		ACF69C942BECA20B00A8C2D4 /* ContentView23.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */; };
 /* End PBXBuildFile section */
 
@@ -243,6 +246,7 @@
 		ACC8C8BB2BFC88CE00E1AFAF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		ACC8C8C72BFD79B000E1AFAF /* ProfileView25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView25.swift; sourceTree = "<group>"; };
 		ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView28.swift; sourceTree = "<group>"; };
+		ACC8C8D12BFDB4CF00E1AFAF /* ContentView29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView29.swift; sourceTree = "<group>"; };
 		ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -444,6 +448,7 @@
 				AC69D5F32BF34685004F25C8 /* #24 */,
 				AC20F3AD2BFB2E8400ACF354 /* #25~27 */,
 				ACC8C8CB2BFDAD6700E1AFAF /* #28 */,
+				ACC8C8D02BFDB4C100E1AFAF /* #29 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -566,6 +571,14 @@
 				ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */,
 			);
 			path = "#28";
+			sourceTree = "<group>";
+		};
+		ACC8C8D02BFDB4C100E1AFAF /* #29 */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8C8D12BFDB4CF00E1AFAF /* ContentView29.swift */,
+			);
+			path = "#29";
 			sourceTree = "<group>";
 		};
 		ACF69C922BECA20200A8C2D4 /* #23 */ = {
@@ -745,6 +758,7 @@
 				AC2556F42BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
 				ACC8C8C82BFD79B000E1AFAF /* ProfileView25.swift in Sources */,
 				AC85D5B52BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
+				ACC8C8D22BFDB4CF00E1AFAF /* ContentView29.swift in Sources */,
 				ACC8C8BC2BFC88CE00E1AFAF /* APIService.swift in Sources */,
 				AC2557262BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC2556F82BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
@@ -788,6 +802,7 @@
 				AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC8B74D42BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift in Sources */,
 				AC2556F12BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
+				ACC8C8D32BFDB4CF00E1AFAF /* ContentView29.swift in Sources */,
 				AC20F3AB2BFB235500ACF354 /* DiceView24.swift in Sources */,
 				AC2557232BEB4617002BB8FA /* ContentView21.swift in Sources */,
 				AC8B74EF2BBFD71E003504C3 /* ContentView1.swift in Sources */,
@@ -858,6 +873,7 @@
 				AC8B75012BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				ACC8C8CF2BFDAD7600E1AFAF /* ContentView28.swift in Sources */,
 				AC20F3B52BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */,
+				ACC8C8D42BFDB4CF00E1AFAF /* ContentView29.swift in Sources */,
 				AC20F3A42BFB1BE700ACF354 /* Reducer.swift in Sources */,
 				ACC8C8B52BFC883600E1AFAF /* User.swift in Sources */,
 				AC2038142BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
