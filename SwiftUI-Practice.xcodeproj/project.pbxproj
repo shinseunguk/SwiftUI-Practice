@@ -168,6 +168,12 @@
 		ACC8C8D72BFDBE9500E1AFAF /* ContentView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D62BFDBE9500E1AFAF /* ContentView30.swift */; };
 		ACC8C8D82BFDBE9500E1AFAF /* ContentView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D62BFDBE9500E1AFAF /* ContentView30.swift */; };
 		ACC8C8D92BFDBE9500E1AFAF /* ContentView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D62BFDBE9500E1AFAF /* ContentView30.swift */; };
+		ACC8C8DC2BFDD2A700E1AFAF /* ContentView31.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8DB2BFDD2A700E1AFAF /* ContentView31.swift */; };
+		ACC8C8DD2BFDD2AB00E1AFAF /* ContentView31.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8DB2BFDD2A700E1AFAF /* ContentView31.swift */; };
+		ACC8C8DE2BFDD2AB00E1AFAF /* ContentView31.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8DB2BFDD2A700E1AFAF /* ContentView31.swift */; };
+		ACC8C8E02BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8DF2BFDD76D00E1AFAF /* ContentViewModel31.swift */; };
+		ACC8C8E12BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8DF2BFDD76D00E1AFAF /* ContentViewModel31.swift */; };
+		ACC8C8E22BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8DF2BFDD76D00E1AFAF /* ContentViewModel31.swift */; };
 		ACF69C942BECA20B00A8C2D4 /* ContentView23.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */; };
 /* End PBXBuildFile section */
 
@@ -251,6 +257,8 @@
 		ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView28.swift; sourceTree = "<group>"; };
 		ACC8C8D12BFDB4CF00E1AFAF /* ContentView29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView29.swift; sourceTree = "<group>"; };
 		ACC8C8D62BFDBE9500E1AFAF /* ContentView30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView30.swift; sourceTree = "<group>"; };
+		ACC8C8DB2BFDD2A700E1AFAF /* ContentView31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView31.swift; sourceTree = "<group>"; };
+		ACC8C8DF2BFDD76D00E1AFAF /* ContentViewModel31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel31.swift; sourceTree = "<group>"; };
 		ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -454,6 +462,7 @@
 				ACC8C8CB2BFDAD6700E1AFAF /* #28 */,
 				ACC8C8D02BFDB4C100E1AFAF /* #29 */,
 				ACC8C8D52BFDBE8900E1AFAF /* #30 */,
+				ACC8C8DA2BFDD29C00E1AFAF /* #31 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -592,6 +601,15 @@
 				ACC8C8D62BFDBE9500E1AFAF /* ContentView30.swift */,
 			);
 			path = "#30";
+			sourceTree = "<group>";
+		};
+		ACC8C8DA2BFDD29C00E1AFAF /* #31 */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8C8DB2BFDD2A700E1AFAF /* ContentView31.swift */,
+				ACC8C8DF2BFDD76D00E1AFAF /* ContentViewModel31.swift */,
+			);
+			path = "#31";
 			sourceTree = "<group>";
 		};
 		ACF69C922BECA20200A8C2D4 /* #23 */ = {
@@ -756,6 +774,7 @@
 				AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */,
 				AC8B751B2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC20380A2BC4D76B003132AF /* ContentView8.swift in Sources */,
+				ACC8C8DC2BFDD2A700E1AFAF /* ContentView31.swift in Sources */,
 				A2F98FB32BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC8B74EE2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B75092BBFDCDD003504C3 /* ContentView6.swift in Sources */,
@@ -764,6 +783,7 @@
 				AC8B74C32BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift in Sources */,
 				AC2556FC2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC25572A2BEB5130002BB8FA /* ListView21.swift in Sources */,
+				ACC8C8E02BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */,
 				AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				ACC8C8D72BFDBE9500E1AFAF /* ContentView30.swift in Sources */,
 				AC8B751F2BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
@@ -837,6 +857,7 @@
 				AC85D5B22BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC20F3A32BFB1BE700ACF354 /* Reducer.swift in Sources */,
 				AC20F3B02BFB2E8F00ACF354 /* ContentView25.swift in Sources */,
+				ACC8C8DD2BFDD2AB00E1AFAF /* ContentView31.swift in Sources */,
 				AC2557272BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC8B75002BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				AC2556EC2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
@@ -849,6 +870,7 @@
 				AC20F3A72BFB1F5A00ACF354 /* AppStore.swift in Sources */,
 				AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				AC69D5FA2BF3523E004F25C8 /* AppState.swift in Sources */,
+				ACC8C8E12BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */,
 				ACC8C8C92BFD79B000E1AFAF /* ProfileView25.swift in Sources */,
 				AC11F4CC2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC25572B2BEB5130002BB8FA /* ListView21.swift in Sources */,
@@ -885,6 +907,7 @@
 				AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC2556FE2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
+				ACC8C8DE2BFDD2AB00E1AFAF /* ContentView31.swift in Sources */,
 				AC8B75012BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				ACC8C8CF2BFDAD7600E1AFAF /* ContentView28.swift in Sources */,
 				ACC8C8D92BFDBE9500E1AFAF /* ContentView30.swift in Sources */,
@@ -907,6 +930,7 @@
 				AC11F4C92BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC25571F2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC2557112BEA11E1002BB8FA /* ContentView18.swift in Sources */,
+				ACC8C8E22BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */,
 				ACC8C8BA2BFC885C00E1AFAF /* API.swift in Sources */,
 				AC85D5B32BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC2557242BEB4617002BB8FA /* ContentView21.swift in Sources */,
