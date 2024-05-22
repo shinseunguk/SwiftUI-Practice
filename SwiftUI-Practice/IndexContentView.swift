@@ -27,6 +27,7 @@ enum Constants {
     static let section17 = ["Combine + Alamofire 기초"]
     static let section18 = ["ViewModifier 기초"]
     static let section19 = ["다크모드"]
+    static let section20 = ["화면 녹화 방지 및 스크린샷 감지"]
 }
 
 struct IndexContentView: View {
@@ -199,9 +200,17 @@ struct IndexContentView: View {
                     }
                 }
                 
-                Section(header: Text("DarkMode#28")) {
+                Section(header: Text("DarkMode#29")) {
                     ForEach(Constants.section19, id: \.self) { item in
                         NavigationLink(destination: ContentView29()) {
+                            Text(item)
+                        }
+                    }
+                }
+                
+                Section(header: Text("화면 녹화 방지 및 스크린샷 감지#30")) {
+                    ForEach(Constants.section20, id: \.self) { item in
+                        NavigationLink(destination: ContentView30()) {
                             Text(item)
                         }
                     }

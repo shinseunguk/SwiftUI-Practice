@@ -165,6 +165,9 @@
 		ACC8C8D22BFDB4CF00E1AFAF /* ContentView29.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D12BFDB4CF00E1AFAF /* ContentView29.swift */; };
 		ACC8C8D32BFDB4CF00E1AFAF /* ContentView29.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D12BFDB4CF00E1AFAF /* ContentView29.swift */; };
 		ACC8C8D42BFDB4CF00E1AFAF /* ContentView29.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D12BFDB4CF00E1AFAF /* ContentView29.swift */; };
+		ACC8C8D72BFDBE9500E1AFAF /* ContentView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D62BFDBE9500E1AFAF /* ContentView30.swift */; };
+		ACC8C8D82BFDBE9500E1AFAF /* ContentView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D62BFDBE9500E1AFAF /* ContentView30.swift */; };
+		ACC8C8D92BFDBE9500E1AFAF /* ContentView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8D62BFDBE9500E1AFAF /* ContentView30.swift */; };
 		ACF69C942BECA20B00A8C2D4 /* ContentView23.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */; };
 /* End PBXBuildFile section */
 
@@ -247,6 +250,7 @@
 		ACC8C8C72BFD79B000E1AFAF /* ProfileView25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView25.swift; sourceTree = "<group>"; };
 		ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView28.swift; sourceTree = "<group>"; };
 		ACC8C8D12BFDB4CF00E1AFAF /* ContentView29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView29.swift; sourceTree = "<group>"; };
+		ACC8C8D62BFDBE9500E1AFAF /* ContentView30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView30.swift; sourceTree = "<group>"; };
 		ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -449,6 +453,7 @@
 				AC20F3AD2BFB2E8400ACF354 /* #25~27 */,
 				ACC8C8CB2BFDAD6700E1AFAF /* #28 */,
 				ACC8C8D02BFDB4C100E1AFAF /* #29 */,
+				ACC8C8D52BFDBE8900E1AFAF /* #30 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -579,6 +584,14 @@
 				ACC8C8D12BFDB4CF00E1AFAF /* ContentView29.swift */,
 			);
 			path = "#29";
+			sourceTree = "<group>";
+		};
+		ACC8C8D52BFDBE8900E1AFAF /* #30 */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8C8D62BFDBE9500E1AFAF /* ContentView30.swift */,
+			);
+			path = "#30";
 			sourceTree = "<group>";
 		};
 		ACF69C922BECA20200A8C2D4 /* #23 */ = {
@@ -752,6 +765,7 @@
 				AC2556FC2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC25572A2BEB5130002BB8FA /* ListView21.swift in Sources */,
 				AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */,
+				ACC8C8D72BFDBE9500E1AFAF /* ContentView30.swift in Sources */,
 				AC8B751F2BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC8B74FF2BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				AC2038122BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
@@ -809,6 +823,7 @@
 				AC69D5F62BF34692004F25C8 /* ContentView24.swift in Sources */,
 				AC85D5B62BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
 				AC2557102BEA11E1002BB8FA /* ContentView18.swift in Sources */,
+				ACC8C8D82BFDBE9500E1AFAF /* ContentView30.swift in Sources */,
 				AC2556F52BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
 				AC2557142BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
 				A2F98FB42BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
@@ -872,6 +887,7 @@
 				AC2556FE2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC8B75012BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				ACC8C8CF2BFDAD7600E1AFAF /* ContentView28.swift in Sources */,
+				ACC8C8D92BFDBE9500E1AFAF /* ContentView30.swift in Sources */,
 				AC20F3B52BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */,
 				ACC8C8D42BFDB4CF00E1AFAF /* ContentView29.swift in Sources */,
 				AC20F3A42BFB1BE700ACF354 /* Reducer.swift in Sources */,
