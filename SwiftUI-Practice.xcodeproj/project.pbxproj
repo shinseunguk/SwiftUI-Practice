@@ -159,6 +159,9 @@
 		ACC8C8C82BFD79B000E1AFAF /* ProfileView25.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8C72BFD79B000E1AFAF /* ProfileView25.swift */; };
 		ACC8C8C92BFD79B000E1AFAF /* ProfileView25.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8C72BFD79B000E1AFAF /* ProfileView25.swift */; };
 		ACC8C8CA2BFD79B000E1AFAF /* ProfileView25.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8C72BFD79B000E1AFAF /* ProfileView25.swift */; };
+		ACC8C8CD2BFDAD7600E1AFAF /* ContentView28.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */; };
+		ACC8C8CE2BFDAD7600E1AFAF /* ContentView28.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */; };
+		ACC8C8CF2BFDAD7600E1AFAF /* ContentView28.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */; };
 		ACF69C942BECA20B00A8C2D4 /* ContentView23.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */; };
 /* End PBXBuildFile section */
 
@@ -239,6 +242,7 @@
 		ACC8C8B72BFC885C00E1AFAF /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		ACC8C8BB2BFC88CE00E1AFAF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		ACC8C8C72BFD79B000E1AFAF /* ProfileView25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView25.swift; sourceTree = "<group>"; };
+		ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView28.swift; sourceTree = "<group>"; };
 		ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -439,6 +443,7 @@
 				ACF69C922BECA20200A8C2D4 /* #23 */,
 				AC69D5F32BF34685004F25C8 /* #24 */,
 				AC20F3AD2BFB2E8400ACF354 /* #25~27 */,
+				ACC8C8CB2BFDAD6700E1AFAF /* #28 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -553,6 +558,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACC8C8CB2BFDAD6700E1AFAF /* #28 */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8C8CC2BFDAD7600E1AFAF /* ContentView28.swift */,
+			);
+			path = "#28";
 			sourceTree = "<group>";
 		};
 		ACF69C922BECA20200A8C2D4 /* #23 */ = {
@@ -758,6 +771,7 @@
 				AC85D5B12BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC5F535A2BEC5539002614FB /* ContentView22.swift in Sources */,
 				ACC8C8B82BFC885C00E1AFAF /* API.swift in Sources */,
+				ACC8C8CD2BFDAD7600E1AFAF /* ContentView28.swift in Sources */,
 				AC8B750D2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -812,6 +826,7 @@
 				AC2557012BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
 				AC8B750E2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 				AC8B74FC2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
+				ACC8C8CE2BFDAD7600E1AFAF /* ContentView28.swift in Sources */,
 				AC2556F92BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -841,6 +856,7 @@
 				AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC2556FE2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC8B75012BBFD90B003504C3 /* MyWebview4.swift in Sources */,
+				ACC8C8CF2BFDAD7600E1AFAF /* ContentView28.swift in Sources */,
 				AC20F3B52BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */,
 				AC20F3A42BFB1BE700ACF354 /* Reducer.swift in Sources */,
 				ACC8C8B52BFC883600E1AFAF /* User.swift in Sources */,
