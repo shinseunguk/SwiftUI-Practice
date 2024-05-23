@@ -177,6 +177,15 @@
 		ACC8C8EC2BFEFB5200E1AFAF /* ContentView37.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8EB2BFEFB5200E1AFAF /* ContentView37.swift */; };
 		ACC8C8ED2BFEFB5200E1AFAF /* ContentView37.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8EB2BFEFB5200E1AFAF /* ContentView37.swift */; };
 		ACC8C8EE2BFEFB5200E1AFAF /* ContentView37.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8EB2BFEFB5200E1AFAF /* ContentView37.swift */; };
+		ACC8C8F12BFF10BA00E1AFAF /* ContentView38.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8F02BFF10BA00E1AFAF /* ContentView38.swift */; };
+		ACC8C8F22BFF10BA00E1AFAF /* ContentView38.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8F02BFF10BA00E1AFAF /* ContentView38.swift */; };
+		ACC8C8F32BFF10BA00E1AFAF /* ContentView38.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8F02BFF10BA00E1AFAF /* ContentView38.swift */; };
+		ACC8C8F92BFF367E00E1AFAF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8F82BFF367E00E1AFAF /* LocationManager.swift */; };
+		ACC8C8FA2BFF367E00E1AFAF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8F82BFF367E00E1AFAF /* LocationManager.swift */; };
+		ACC8C8FB2BFF367E00E1AFAF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8F82BFF367E00E1AFAF /* LocationManager.swift */; };
+		ACC8C8FD2BFF38FD00E1AFAF /* MapView38.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8FC2BFF38FD00E1AFAF /* MapView38.swift */; };
+		ACC8C8FE2BFF38FD00E1AFAF /* MapView38.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8FC2BFF38FD00E1AFAF /* MapView38.swift */; };
+		ACC8C8FF2BFF38FD00E1AFAF /* MapView38.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8FC2BFF38FD00E1AFAF /* MapView38.swift */; };
 		ACF69C942BECA20B00A8C2D4 /* ContentView23.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */; };
 /* End PBXBuildFile section */
 
@@ -263,6 +272,9 @@
 		ACC8C8DB2BFDD2A700E1AFAF /* ContentView31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView31.swift; sourceTree = "<group>"; };
 		ACC8C8DF2BFDD76D00E1AFAF /* ContentViewModel31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel31.swift; sourceTree = "<group>"; };
 		ACC8C8EB2BFEFB5200E1AFAF /* ContentView37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView37.swift; sourceTree = "<group>"; };
+		ACC8C8F02BFF10BA00E1AFAF /* ContentView38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView38.swift; sourceTree = "<group>"; };
+		ACC8C8F82BFF367E00E1AFAF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		ACC8C8FC2BFF38FD00E1AFAF /* MapView38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView38.swift; sourceTree = "<group>"; };
 		ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -468,6 +480,7 @@
 				ACC8C8D52BFDBE8900E1AFAF /* #30 */,
 				ACC8C8DA2BFDD29C00E1AFAF /* #31 */,
 				ACC8C8EA2BFEFB3F00E1AFAF /* #37 */,
+				ACC8C8EF2BFF10AF00E1AFAF /* #38 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -623,6 +636,16 @@
 				ACC8C8EB2BFEFB5200E1AFAF /* ContentView37.swift */,
 			);
 			path = "#37";
+			sourceTree = "<group>";
+		};
+		ACC8C8EF2BFF10AF00E1AFAF /* #38 */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8C8F02BFF10BA00E1AFAF /* ContentView38.swift */,
+				ACC8C8F82BFF367E00E1AFAF /* LocationManager.swift */,
+				ACC8C8FC2BFF38FD00E1AFAF /* MapView38.swift */,
+			);
+			path = "#38";
 			sourceTree = "<group>";
 		};
 		ACF69C922BECA20200A8C2D4 /* #23 */ = {
@@ -785,6 +808,7 @@
 				AC20380E2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
 				AC8B75042BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */,
+				ACC8C8F92BFF367E00E1AFAF /* LocationManager.swift in Sources */,
 				AC8B751B2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC20380A2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				ACC8C8DC2BFDD2A700E1AFAF /* ContentView31.swift in Sources */,
@@ -792,6 +816,7 @@
 				AC8B74EE2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC8B75092BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC2557002BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
+				ACC8C8F12BFF10BA00E1AFAF /* ContentView38.swift in Sources */,
 				AC69D5F92BF3523E004F25C8 /* AppState.swift in Sources */,
 				AC8B74C32BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift in Sources */,
 				AC2556FC2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
@@ -804,6 +829,7 @@
 				AC2038122BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC2556F42BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
 				ACC8C8C82BFD79B000E1AFAF /* ProfileView25.swift in Sources */,
+				ACC8C8FD2BFF38FD00E1AFAF /* MapView38.swift in Sources */,
 				AC85D5B52BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
 				ACC8C8D22BFDB4CF00E1AFAF /* ContentView29.swift in Sources */,
 				ACC8C8BC2BFC88CE00E1AFAF /* APIService.swift in Sources */,
@@ -879,6 +905,7 @@
 				AC8B751C2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC8B750A2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC8B75202BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
+				ACC8C8F22BFF10BA00E1AFAF /* ContentView38.swift in Sources */,
 				ACC8C8B42BFC883600E1AFAF /* User.swift in Sources */,
 				AC8B75052BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				ACC8C8B92BFC885C00E1AFAF /* API.swift in Sources */,
@@ -888,12 +915,14 @@
 				ACC8C8E12BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */,
 				ACC8C8C92BFD79B000E1AFAF /* ProfileView25.swift in Sources */,
 				AC11F4CC2BCD07CB007EECBB /* ContentView13.swift in Sources */,
+				ACC8C8FA2BFF367E00E1AFAF /* LocationManager.swift in Sources */,
 				AC25572B2BEB5130002BB8FA /* ListView21.swift in Sources */,
 				AC20F3B42BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */,
 				AC2557012BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
 				AC8B750E2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 				AC8B74FC2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				ACC8C8CE2BFDAD7600E1AFAF /* ContentView28.swift in Sources */,
+				ACC8C8FE2BFF38FD00E1AFAF /* MapView38.swift in Sources */,
 				AC2556F92BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -938,6 +967,7 @@
 				AC69D5FB2BF3523E004F25C8 /* AppState.swift in Sources */,
 				AC11F4DA2BCD1CA1007EECBB /* TabView14.swift in Sources */,
 				AC2557022BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
+				ACC8C8FF2BFF38FD00E1AFAF /* MapView38.swift in Sources */,
 				AC11F4CD2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC2556CC2BE49CA2002BB8FA /* ContentView16.swift in Sources */,
 				ACC8C8CA2BFD79B000E1AFAF /* ProfileView25.swift in Sources */,
@@ -954,6 +984,8 @@
 				A2F98FB52BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC2556FA2BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
 				AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
+				ACC8C8FB2BFF367E00E1AFAF /* LocationManager.swift in Sources */,
+				ACC8C8F32BFF10BA00E1AFAF /* ContentView38.swift in Sources */,
 				AC2556ED2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
 				AC25572C2BEB5130002BB8FA /* ListView21.swift in Sources */,
 			);
