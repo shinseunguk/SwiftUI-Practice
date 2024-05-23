@@ -28,7 +28,8 @@ enum Constants {
     static let section18 = ["ViewModifier 기초"]
     static let section19 = ["다크모드"]
     static let section20 = ["화면 녹화 방지 및 스크린샷 감지"]
-    static let section21 = ["State / Binding / EnvironmentObject"]
+    static let section21 = ["State / Binding / EnvironmentObject 기초"]
+    static let section22 = ["Tap Gesture 기초"]
 }
 
 struct IndexContentView: View {
@@ -220,6 +221,14 @@ struct IndexContentView: View {
                 Section(header: Text("State / Binding / EnvironmentObject#31")) {
                     ForEach(Constants.section21, id: \.self) { item in
                         NavigationLink(destination: ContentView31().environmentObject(ContentViewModel31())) {
+                            Text(item)
+                        }
+                    }
+                }
+                
+                Section(header: Text("Tap Gesture 기초#37")) {
+                    ForEach(Constants.section22, id: \.self) { item in
+                        NavigationLink(destination: ContentView37()) {
                             Text(item)
                         }
                     }
