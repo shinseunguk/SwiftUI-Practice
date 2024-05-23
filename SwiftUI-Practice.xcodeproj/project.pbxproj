@@ -174,6 +174,9 @@
 		ACC8C8E02BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8DF2BFDD76D00E1AFAF /* ContentViewModel31.swift */; };
 		ACC8C8E12BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8DF2BFDD76D00E1AFAF /* ContentViewModel31.swift */; };
 		ACC8C8E22BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8DF2BFDD76D00E1AFAF /* ContentViewModel31.swift */; };
+		ACC8C8EC2BFEFB5200E1AFAF /* ContentView37.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8EB2BFEFB5200E1AFAF /* ContentView37.swift */; };
+		ACC8C8ED2BFEFB5200E1AFAF /* ContentView37.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8EB2BFEFB5200E1AFAF /* ContentView37.swift */; };
+		ACC8C8EE2BFEFB5200E1AFAF /* ContentView37.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8EB2BFEFB5200E1AFAF /* ContentView37.swift */; };
 		ACF69C942BECA20B00A8C2D4 /* ContentView23.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */; };
 /* End PBXBuildFile section */
 
@@ -259,6 +262,7 @@
 		ACC8C8D62BFDBE9500E1AFAF /* ContentView30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView30.swift; sourceTree = "<group>"; };
 		ACC8C8DB2BFDD2A700E1AFAF /* ContentView31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView31.swift; sourceTree = "<group>"; };
 		ACC8C8DF2BFDD76D00E1AFAF /* ContentViewModel31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel31.swift; sourceTree = "<group>"; };
+		ACC8C8EB2BFEFB5200E1AFAF /* ContentView37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView37.swift; sourceTree = "<group>"; };
 		ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -463,6 +467,7 @@
 				ACC8C8D02BFDB4C100E1AFAF /* #29 */,
 				ACC8C8D52BFDBE8900E1AFAF /* #30 */,
 				ACC8C8DA2BFDD29C00E1AFAF /* #31 */,
+				ACC8C8EA2BFEFB3F00E1AFAF /* #37 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -610,6 +615,14 @@
 				ACC8C8DF2BFDD76D00E1AFAF /* ContentViewModel31.swift */,
 			);
 			path = "#31";
+			sourceTree = "<group>";
+		};
+		ACC8C8EA2BFEFB3F00E1AFAF /* #37 */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8C8EB2BFEFB5200E1AFAF /* ContentView37.swift */,
+			);
+			path = "#37";
 			sourceTree = "<group>";
 		};
 		ACF69C922BECA20200A8C2D4 /* #23 */ = {
@@ -796,6 +809,7 @@
 				ACC8C8BC2BFC88CE00E1AFAF /* APIService.swift in Sources */,
 				AC2557262BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC2556F82BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
+				ACC8C8EC2BFEFB5200E1AFAF /* ContentView37.swift in Sources */,
 				AC2556EB2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
 				ACF69C942BECA20B00A8C2D4 /* ContentView23.swift in Sources */,
 				AC8B75172BBFE1A1003504C3 /* VStackView7.swift in Sources */,
@@ -839,6 +853,7 @@
 				ACC8C8D32BFDB4CF00E1AFAF /* ContentView29.swift in Sources */,
 				AC20F3AB2BFB235500ACF354 /* DiceView24.swift in Sources */,
 				AC2557232BEB4617002BB8FA /* ContentView21.swift in Sources */,
+				ACC8C8ED2BFEFB5200E1AFAF /* ContentView37.swift in Sources */,
 				AC8B74EF2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC69D5F62BF34692004F25C8 /* ContentView24.swift in Sources */,
 				AC85D5B62BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
@@ -905,6 +920,7 @@
 				AC2556F62BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
 				AC69D5FF2BF35286004F25C8 /* AppAction.swift in Sources */,
 				AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */,
+				ACC8C8EE2BFEFB5200E1AFAF /* ContentView37.swift in Sources */,
 				AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC2556FE2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				ACC8C8DE2BFDD2AB00E1AFAF /* ContentView31.swift in Sources */,
