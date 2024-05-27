@@ -144,6 +144,9 @@
 		AC8B751F2BBFE8A7003504C3 /* ZStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */; };
 		AC8B75202BBFE8A7003504C3 /* ZStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */; };
 		AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */; };
+		ACA1EF2B2C0409CD002EDC95 /* ContentView39.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1EF2A2C0409CD002EDC95 /* ContentView39.swift */; };
+		ACA1EF2C2C0409CD002EDC95 /* ContentView39.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1EF2A2C0409CD002EDC95 /* ContentView39.swift */; };
+		ACA1EF2D2C0409CD002EDC95 /* ContentView39.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1EF2A2C0409CD002EDC95 /* ContentView39.swift */; };
 		ACC8C8B32BFC883600E1AFAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8B22BFC883600E1AFAF /* User.swift */; };
 		ACC8C8B42BFC883600E1AFAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8B22BFC883600E1AFAF /* User.swift */; };
 		ACC8C8B52BFC883600E1AFAF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8B22BFC883600E1AFAF /* User.swift */; };
@@ -262,6 +265,7 @@
 		AC8B75162BBFE1A1003504C3 /* VStackView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView7.swift; sourceTree = "<group>"; };
 		AC8B751A2BBFE6EE003504C3 /* HStackView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView7.swift; sourceTree = "<group>"; };
 		AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView7.swift; sourceTree = "<group>"; };
+		ACA1EF2A2C0409CD002EDC95 /* ContentView39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView39.swift; sourceTree = "<group>"; };
 		ACC8C8B22BFC883600E1AFAF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ACC8C8B72BFC885C00E1AFAF /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		ACC8C8BB2BFC88CE00E1AFAF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
@@ -481,6 +485,7 @@
 				ACC8C8DA2BFDD29C00E1AFAF /* #31 */,
 				ACC8C8EA2BFEFB3F00E1AFAF /* #37 */,
 				ACC8C8EF2BFF10AF00E1AFAF /* #38 */,
+				ACA1EF292C0409C0002EDC95 /* #39 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -554,6 +559,14 @@
 				AC8B751E2BBFE8A7003504C3 /* ZStackView7.swift */,
 			);
 			path = "#7";
+			sourceTree = "<group>";
+		};
+		ACA1EF292C0409C0002EDC95 /* #39 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1EF2A2C0409CD002EDC95 /* ContentView39.swift */,
+			);
+			path = "#39";
 			sourceTree = "<group>";
 		};
 		ACC8C8AF2BFC880900E1AFAF /* View */ = {
@@ -822,6 +835,7 @@
 				AC2556FC2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC25572A2BEB5130002BB8FA /* ListView21.swift in Sources */,
 				ACC8C8E02BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */,
+				ACA1EF2B2C0409CD002EDC95 /* ContentView39.swift in Sources */,
 				AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				ACC8C8D72BFDBE9500E1AFAF /* ContentView30.swift in Sources */,
 				AC8B751F2BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
@@ -873,6 +887,7 @@
 				AC11F4D92BCD1CA1007EECBB /* TabView14.swift in Sources */,
 				AC5F535B2BEC5539002614FB /* ContentView22.swift in Sources */,
 				AC20380F2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
+				ACA1EF2C2C0409CD002EDC95 /* ContentView39.swift in Sources */,
 				AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC8B74D42BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift in Sources */,
 				AC2556F12BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
@@ -947,6 +962,7 @@
 				AC2557152BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
 				AC69D5F72BF34692004F25C8 /* ContentView24.swift in Sources */,
 				AC2556F62BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
+				ACA1EF2D2C0409CD002EDC95 /* ContentView39.swift in Sources */,
 				AC69D5FF2BF35286004F25C8 /* AppAction.swift in Sources */,
 				AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				ACC8C8EE2BFEFB5200E1AFAF /* ContentView37.swift in Sources */,

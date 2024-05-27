@@ -31,6 +31,7 @@ enum Constants {
     static let section21 = ["State / Binding / EnvironmentObject 기초"]
     static let section22 = ["Tap Gesture 기초"]
     static let section23 = ["MapView 기초"]
+    static let section24 = ["ScrollView Reader 기초"]
 }
 
 struct IndexContentView: View {
@@ -238,6 +239,14 @@ struct IndexContentView: View {
                 Section(header: Text("MapView 기초#38")) {
                     ForEach(Constants.section23, id: \.self) { item in
                         NavigationLink(destination: ContentView38()) {
+                            Text(item)
+                        }
+                    }
+                }
+                
+                Section(header: Text("ScrollView Reader 기초#39")) {
+                    ForEach(Constants.section24, id: \.self) { item in
+                        NavigationLink(destination: ContentView39()) {
                             Text(item)
                         }
                     }
