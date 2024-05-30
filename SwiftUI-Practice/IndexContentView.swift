@@ -33,6 +33,7 @@ enum Constants {
     static let section23 = ["MapView 기초"]
     static let section24 = ["ScrollView Reader 기초"]
     static let section25 = ["drag&drop"]
+    static let section26 = ["Login & MVVM + Alamofire + Combine"]
 }
 
 struct IndexContentView: View {
@@ -256,6 +257,14 @@ struct IndexContentView: View {
                 Section(header: Text("Drag & Drop#39")) {
                     ForEach(Constants.section25, id: \.self) { item in
                         NavigationLink(destination: ContentView40()) {
+                            Text(item)
+                        }
+                    }
+                }
+                
+                Section(header: Text("Login & MVVM + Alamofire + Combine#44")) {
+                    ForEach(Constants.section26, id: \.self) { item in
+                        NavigationLink(destination: ContentView44().environmentObject(ContentViewModel44())) {
                             Text(item)
                         }
                     }

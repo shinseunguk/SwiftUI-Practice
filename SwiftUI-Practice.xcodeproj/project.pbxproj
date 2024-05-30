@@ -10,6 +10,33 @@
 		A2F98FB32BEA5BD000F7B2A7 /* ContentView20.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F98FB22BEA5BD000F7B2A7 /* ContentView20.swift */; };
 		A2F98FB42BEA5BD000F7B2A7 /* ContentView20.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F98FB22BEA5BD000F7B2A7 /* ContentView20.swift */; };
 		A2F98FB52BEA5BD000F7B2A7 /* ContentView20.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F98FB22BEA5BD000F7B2A7 /* ContentView20.swift */; };
+		AC039F472C06B299000865F7 /* BaseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F462C06B299000865F7 /* BaseInterceptor.swift */; };
+		AC039F482C06B299000865F7 /* BaseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F462C06B299000865F7 /* BaseInterceptor.swift */; };
+		AC039F492C06B299000865F7 /* BaseInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F462C06B299000865F7 /* BaseInterceptor.swift */; };
+		AC039F4F2C06B3D0000865F7 /* ApiLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F4E2C06B3D0000865F7 /* ApiLogger.swift */; };
+		AC039F502C06B3D0000865F7 /* ApiLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F4E2C06B3D0000865F7 /* ApiLogger.swift */; };
+		AC039F512C06B3D0000865F7 /* ApiLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F4E2C06B3D0000865F7 /* ApiLogger.swift */; };
+		AC039F532C06B3D6000865F7 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F522C06B3D6000865F7 /* ApiClient.swift */; };
+		AC039F542C06B3D6000865F7 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F522C06B3D6000865F7 /* ApiClient.swift */; };
+		AC039F552C06B3D6000865F7 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F522C06B3D6000865F7 /* ApiClient.swift */; };
+		AC039F572C06B660000865F7 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F562C06B660000865F7 /* AuthRouter.swift */; };
+		AC039F582C06B660000865F7 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F562C06B660000865F7 /* AuthRouter.swift */; };
+		AC039F592C06B660000865F7 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F562C06B660000865F7 /* AuthRouter.swift */; };
+		AC039F5C2C06B970000865F7 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F5B2C06B970000865F7 /* UserDefaultManager.swift */; };
+		AC039F5D2C06B970000865F7 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F5B2C06B970000865F7 /* UserDefaultManager.swift */; };
+		AC039F5E2C06B970000865F7 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F5B2C06B970000865F7 /* UserDefaultManager.swift */; };
+		AC039F602C06BAA4000865F7 /* TokenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F5F2C06BAA4000865F7 /* TokenData.swift */; };
+		AC039F612C06BAA4000865F7 /* TokenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F5F2C06BAA4000865F7 /* TokenData.swift */; };
+		AC039F622C06BAA4000865F7 /* TokenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F5F2C06BAA4000865F7 /* TokenData.swift */; };
+		AC039F642C06BB5D000865F7 /* AuthApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F632C06BB5D000865F7 /* AuthApiService.swift */; };
+		AC039F652C06BB5D000865F7 /* AuthApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F632C06BB5D000865F7 /* AuthApiService.swift */; };
+		AC039F662C06BB5D000865F7 /* AuthApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F632C06BB5D000865F7 /* AuthApiService.swift */; };
+		AC039F682C06BCD5000865F7 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F672C06BCD5000865F7 /* UserData.swift */; };
+		AC039F692C06BCD5000865F7 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F672C06BCD5000865F7 /* UserData.swift */; };
+		AC039F6A2C06BCD5000865F7 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F672C06BCD5000865F7 /* UserData.swift */; };
+		AC039F6C2C06BF2D000865F7 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F6B2C06BF2D000865F7 /* AuthResponse.swift */; };
+		AC039F6D2C06BF2D000865F7 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F6B2C06BF2D000865F7 /* AuthResponse.swift */; };
+		AC039F6E2C06BF2D000865F7 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC039F6B2C06BF2D000865F7 /* AuthResponse.swift */; };
 		AC11F4C72BCD0454007EECBB /* TabView13.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4C62BCD0454007EECBB /* TabView13.swift */; };
 		AC11F4C82BCD0454007EECBB /* TabView13.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4C62BCD0454007EECBB /* TabView13.swift */; };
 		AC11F4C92BCD0454007EECBB /* TabView13.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11F4C62BCD0454007EECBB /* TabView13.swift */; };
@@ -86,6 +113,27 @@
 		AC25572A2BEB5130002BB8FA /* ListView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557292BEB5130002BB8FA /* ListView21.swift */; };
 		AC25572B2BEB5130002BB8FA /* ListView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557292BEB5130002BB8FA /* ListView21.swift */; };
 		AC25572C2BEB5130002BB8FA /* ListView21.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2557292BEB5130002BB8FA /* ListView21.swift */; };
+		AC4708112C06FA5A0026D854 /* OAuthAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708102C06FA5A0026D854 /* OAuthAuthenticator.swift */; };
+		AC4708122C06FA5A0026D854 /* OAuthAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708102C06FA5A0026D854 /* OAuthAuthenticator.swift */; };
+		AC4708132C06FA5A0026D854 /* OAuthAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708102C06FA5A0026D854 /* OAuthAuthenticator.swift */; };
+		AC4708152C06FA720026D854 /* OAuthCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708142C06FA720026D854 /* OAuthCredential.swift */; };
+		AC4708162C06FA720026D854 /* OAuthCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708142C06FA720026D854 /* OAuthCredential.swift */; };
+		AC4708172C06FA720026D854 /* OAuthCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708142C06FA720026D854 /* OAuthCredential.swift */; };
+		AC4708192C06FA8E0026D854 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708182C06FA8E0026D854 /* TokenResponse.swift */; };
+		AC47081A2C06FA8E0026D854 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708182C06FA8E0026D854 /* TokenResponse.swift */; };
+		AC47081B2C06FA8E0026D854 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708182C06FA8E0026D854 /* TokenResponse.swift */; };
+		AC47081D2C06FAC90026D854 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47081C2C06FAC90026D854 /* UserRouter.swift */; };
+		AC47081E2C06FAC90026D854 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47081C2C06FAC90026D854 /* UserRouter.swift */; };
+		AC47081F2C06FAC90026D854 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47081C2C06FAC90026D854 /* UserRouter.swift */; };
+		AC4708212C06FDF60026D854 /* UserApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708202C06FDF60026D854 /* UserApiService.swift */; };
+		AC4708222C06FDF60026D854 /* UserApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708202C06FDF60026D854 /* UserApiService.swift */; };
+		AC4708232C06FDF60026D854 /* UserApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708202C06FDF60026D854 /* UserApiService.swift */; };
+		AC4708252C06FFC60026D854 /* UserInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708242C06FFC60026D854 /* UserInfoResponse.swift */; };
+		AC4708262C06FFC60026D854 /* UserInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708242C06FFC60026D854 /* UserInfoResponse.swift */; };
+		AC4708272C06FFC60026D854 /* UserInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708242C06FFC60026D854 /* UserInfoResponse.swift */; };
+		AC4708322C081CEA0026D854 /* UserListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708312C081CEA0026D854 /* UserListResponse.swift */; };
+		AC4708332C081CEA0026D854 /* UserListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708312C081CEA0026D854 /* UserListResponse.swift */; };
+		AC4708342C081CEA0026D854 /* UserListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4708312C081CEA0026D854 /* UserListResponse.swift */; };
 		AC5F535A2BEC5539002614FB /* ContentView22.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F53592BEC5539002614FB /* ContentView22.swift */; };
 		AC5F535B2BEC5539002614FB /* ContentView22.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F53592BEC5539002614FB /* ContentView22.swift */; };
 		AC5F535C2BEC5539002614FB /* ContentView22.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F53592BEC5539002614FB /* ContentView22.swift */; };
@@ -98,6 +146,24 @@
 		AC69D5FD2BF35286004F25C8 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5FC2BF35286004F25C8 /* AppAction.swift */; };
 		AC69D5FE2BF35286004F25C8 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5FC2BF35286004F25C8 /* AppAction.swift */; };
 		AC69D5FF2BF35286004F25C8 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69D5FC2BF35286004F25C8 /* AppAction.swift */; };
+		AC7D48842C04735200C21AA0 /* ContentView44.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D48832C04735200C21AA0 /* ContentView44.swift */; };
+		AC7D48852C04735200C21AA0 /* ContentView44.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D48832C04735200C21AA0 /* ContentView44.swift */; };
+		AC7D48862C04735200C21AA0 /* ContentView44.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D48832C04735200C21AA0 /* ContentView44.swift */; };
+		AC7D488C2C0479B800C21AA0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D488B2C0479B800C21AA0 /* LoginView.swift */; };
+		AC7D488D2C0479B800C21AA0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D488B2C0479B800C21AA0 /* LoginView.swift */; };
+		AC7D488E2C0479B800C21AA0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D488B2C0479B800C21AA0 /* LoginView.swift */; };
+		AC7D48902C0479BE00C21AA0 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D488F2C0479BE00C21AA0 /* RegisterView.swift */; };
+		AC7D48912C0479BE00C21AA0 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D488F2C0479BE00C21AA0 /* RegisterView.swift */; };
+		AC7D48922C0479BE00C21AA0 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D488F2C0479BE00C21AA0 /* RegisterView.swift */; };
+		AC7D48942C0479C300C21AA0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D48932C0479C300C21AA0 /* ProfileView.swift */; };
+		AC7D48952C0479C300C21AA0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D48932C0479C300C21AA0 /* ProfileView.swift */; };
+		AC7D48962C0479C300C21AA0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D48932C0479C300C21AA0 /* ProfileView.swift */; };
+		AC7D48982C0479C800C21AA0 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D48972C0479C800C21AA0 /* UserListView.swift */; };
+		AC7D48992C0479C800C21AA0 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D48972C0479C800C21AA0 /* UserListView.swift */; };
+		AC7D489A2C0479C800C21AA0 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D48972C0479C800C21AA0 /* UserListView.swift */; };
+		AC7D489C2C05640500C21AA0 /* ContentViewModel44.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D489B2C05640500C21AA0 /* ContentViewModel44.swift */; };
+		AC7D489D2C05640500C21AA0 /* ContentViewModel44.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D489B2C05640500C21AA0 /* ContentViewModel44.swift */; };
+		AC7D489E2C05640500C21AA0 /* ContentViewModel44.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D489B2C05640500C21AA0 /* ContentViewModel44.swift */; };
 		AC85D5A82BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
 		AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */; };
@@ -214,6 +280,15 @@
 
 /* Begin PBXFileReference section */
 		A2F98FB22BEA5BD000F7B2A7 /* ContentView20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView20.swift; sourceTree = "<group>"; };
+		AC039F462C06B299000865F7 /* BaseInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInterceptor.swift; sourceTree = "<group>"; };
+		AC039F4E2C06B3D0000865F7 /* ApiLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiLogger.swift; sourceTree = "<group>"; };
+		AC039F522C06B3D6000865F7 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		AC039F562C06B660000865F7 /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		AC039F5B2C06B970000865F7 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		AC039F5F2C06BAA4000865F7 /* TokenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenData.swift; sourceTree = "<group>"; };
+		AC039F632C06BB5D000865F7 /* AuthApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApiService.swift; sourceTree = "<group>"; };
+		AC039F672C06BCD5000865F7 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		AC039F6B2C06BF2D000865F7 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		AC11F4C62BCD0454007EECBB /* TabView13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView13.swift; sourceTree = "<group>"; };
 		AC11F4CA2BCD07CB007EECBB /* ContentView13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView13.swift; sourceTree = "<group>"; };
 		AC11F4D72BCD1CA1007EECBB /* TabView14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView14.swift; sourceTree = "<group>"; };
@@ -241,10 +316,23 @@
 		AC2557212BEB4617002BB8FA /* ContentView21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView21.swift; sourceTree = "<group>"; };
 		AC2557252BEB4C14002BB8FA /* ProfileView21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView21.swift; sourceTree = "<group>"; };
 		AC2557292BEB5130002BB8FA /* ListView21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView21.swift; sourceTree = "<group>"; };
+		AC4708102C06FA5A0026D854 /* OAuthAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthAuthenticator.swift; sourceTree = "<group>"; };
+		AC4708142C06FA720026D854 /* OAuthCredential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthCredential.swift; sourceTree = "<group>"; };
+		AC4708182C06FA8E0026D854 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		AC47081C2C06FAC90026D854 /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
+		AC4708202C06FDF60026D854 /* UserApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiService.swift; sourceTree = "<group>"; };
+		AC4708242C06FFC60026D854 /* UserInfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoResponse.swift; sourceTree = "<group>"; };
+		AC4708312C081CEA0026D854 /* UserListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListResponse.swift; sourceTree = "<group>"; };
 		AC5F53592BEC5539002614FB /* ContentView22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView22.swift; sourceTree = "<group>"; };
 		AC69D5F42BF34692004F25C8 /* ContentView24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView24.swift; sourceTree = "<group>"; };
 		AC69D5F82BF3523E004F25C8 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		AC69D5FC2BF35286004F25C8 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		AC7D48832C04735200C21AA0 /* ContentView44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView44.swift; sourceTree = "<group>"; };
+		AC7D488B2C0479B800C21AA0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AC7D488F2C0479BE00C21AA0 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		AC7D48932C0479C300C21AA0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AC7D48972C0479C800C21AA0 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		AC7D489B2C05640500C21AA0 /* ContentViewModel44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel44.swift; sourceTree = "<group>"; };
 		AC85D5A72BC76ABC00F4AE36 /* ListView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView10.swift; sourceTree = "<group>"; };
 		AC85D5AB2BC7767000F4AE36 /* NavigationView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView11.swift; sourceTree = "<group>"; };
 		AC85D5B02BC7C1D800F4AE36 /* ContentView12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView12.swift; sourceTree = "<group>"; };
@@ -324,6 +412,49 @@
 				AC25571C2BEB0019002BB8FA /* ContentView20_2.swift */,
 			);
 			path = "#20";
+			sourceTree = "<group>";
+		};
+		AC039F4A2C06B389000865F7 /* Interceptor */ = {
+			isa = PBXGroup;
+			children = (
+				AC039F462C06B299000865F7 /* BaseInterceptor.swift */,
+			);
+			path = Interceptor;
+			sourceTree = "<group>";
+		};
+		AC039F4B2C06B3A3000865F7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AC039F562C06B660000865F7 /* AuthRouter.swift */,
+				AC47081C2C06FAC90026D854 /* UserRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AC039F4C2C06B3BB000865F7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AC039F632C06BB5D000865F7 /* AuthApiService.swift */,
+				AC4708202C06FDF60026D854 /* UserApiService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AC039F4D2C06B3C2000865F7 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				AC4708102C06FA5A0026D854 /* OAuthAuthenticator.swift */,
+				AC4708142C06FA720026D854 /* OAuthCredential.swift */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		AC039F5A2C06B961000865F7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AC039F5B2C06B970000865F7 /* UserDefaultManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		AC11F4C52BCD0440007EECBB /* #13 */ = {
@@ -428,6 +559,64 @@
 			path = "#24";
 			sourceTree = "<group>";
 		};
+		AC7D48822C04734900C21AA0 /* #44 */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D488A2C04797A00C21AA0 /* API */,
+				AC7D48872C04795D00C21AA0 /* View */,
+				AC7D48882C04796700C21AA0 /* ViewModel */,
+				AC7D48892C04796D00C21AA0 /* Model */,
+			);
+			path = "#44";
+			sourceTree = "<group>";
+		};
+		AC7D48872C04795D00C21AA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D48832C04735200C21AA0 /* ContentView44.swift */,
+				AC7D488B2C0479B800C21AA0 /* LoginView.swift */,
+				AC7D488F2C0479BE00C21AA0 /* RegisterView.swift */,
+				AC7D48932C0479C300C21AA0 /* ProfileView.swift */,
+				AC7D48972C0479C800C21AA0 /* UserListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC7D48882C04796700C21AA0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D489B2C05640500C21AA0 /* ContentViewModel44.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC7D48892C04796D00C21AA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC039F5F2C06BAA4000865F7 /* TokenData.swift */,
+				AC039F672C06BCD5000865F7 /* UserData.swift */,
+				AC039F6B2C06BF2D000865F7 /* AuthResponse.swift */,
+				AC4708182C06FA8E0026D854 /* TokenResponse.swift */,
+				AC4708242C06FFC60026D854 /* UserInfoResponse.swift */,
+				AC4708312C081CEA0026D854 /* UserListResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC7D488A2C04797A00C21AA0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AC039F5A2C06B961000865F7 /* Manager */,
+				AC039F4D2C06B3C2000865F7 /* OAuth */,
+				AC039F4C2C06B3BB000865F7 /* Service */,
+				AC039F4A2C06B389000865F7 /* Interceptor */,
+				AC039F4B2C06B3A3000865F7 /* Router */,
+				AC039F4E2C06B3D0000865F7 /* ApiLogger.swift */,
+				AC039F522C06B3D6000865F7 /* ApiClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		AC85D5AF2BC7C1CB00F4AE36 /* #12 */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,6 +680,7 @@
 				ACC8C8EF2BFF10AF00E1AFAF /* #38 */,
 				ACA1EF292C0409C0002EDC95 /* #39 */,
 				ACA1EF2E2C041B50002EDC95 /* #40 */,
+				AC7D48822C04734900C21AA0 /* #44 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -830,20 +1020,29 @@
 			files = (
 				AC2556F02BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
 				AC2557222BEB4617002BB8FA /* ContentView21.swift in Sources */,
+				AC4708212C06FDF60026D854 /* UserApiService.swift in Sources */,
 				ACC8C8B32BFC883600E1AFAF /* User.swift in Sources */,
+				AC039F682C06BCD5000865F7 /* UserData.swift in Sources */,
 				AC20380E2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
 				AC8B75042BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */,
 				ACC8C8F92BFF367E00E1AFAF /* LocationManager.swift in Sources */,
+				AC7D48982C0479C800C21AA0 /* UserListView.swift in Sources */,
 				AC8B751B2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
+				AC039F6C2C06BF2D000865F7 /* AuthResponse.swift in Sources */,
 				AC20380A2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				ACC8C8DC2BFDD2A700E1AFAF /* ContentView31.swift in Sources */,
+				AC039F572C06B660000865F7 /* AuthRouter.swift in Sources */,
 				A2F98FB32BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC8B74EE2BBFD71E003504C3 /* ContentView1.swift in Sources */,
+				AC4708252C06FFC60026D854 /* UserInfoResponse.swift in Sources */,
 				AC8B75092BBFDCDD003504C3 /* ContentView6.swift in Sources */,
+				AC7D48902C0479BE00C21AA0 /* RegisterView.swift in Sources */,
+				AC4708192C06FA8E0026D854 /* TokenResponse.swift in Sources */,
 				AC2557002BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
 				ACC8C8F12BFF10BA00E1AFAF /* ContentView38.swift in Sources */,
 				AC69D5F92BF3523E004F25C8 /* AppState.swift in Sources */,
+				AC039F472C06B299000865F7 /* BaseInterceptor.swift in Sources */,
 				AC8B74C32BBFCAE9003504C3 /* SwiftUI_PracticeApp.swift in Sources */,
 				AC2556FC2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
 				AC25572A2BEB5130002BB8FA /* ListView21.swift in Sources */,
@@ -854,15 +1053,20 @@
 				AC8B751F2BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC8B74FF2BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				AC2038122BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
+				AC7D48942C0479C300C21AA0 /* ProfileView.swift in Sources */,
+				AC039F4F2C06B3D0000865F7 /* ApiLogger.swift in Sources */,
 				AC2556F42BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
 				ACC8C8C82BFD79B000E1AFAF /* ProfileView25.swift in Sources */,
+				AC7D489C2C05640500C21AA0 /* ContentViewModel44.swift in Sources */,
 				ACC8C8FD2BFF38FD00E1AFAF /* MapView38.swift in Sources */,
 				AC85D5B52BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
 				ACC8C8D22BFDB4CF00E1AFAF /* ContentView29.swift in Sources */,
+				AC4708322C081CEA0026D854 /* UserListResponse.swift in Sources */,
 				ACC8C8BC2BFC88CE00E1AFAF /* APIService.swift in Sources */,
 				AC2557262BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
 				AC2556F82BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
 				ACC8C8EC2BFEFB5200E1AFAF /* ContentView37.swift in Sources */,
+				AC039F5C2C06B970000865F7 /* UserDefaultManager.swift in Sources */,
 				AC2556EB2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
 				ACF69C942BECA20B00A8C2D4 /* ContentView23.swift in Sources */,
 				AC8B75172BBFE1A1003504C3 /* VStackView7.swift in Sources */,
@@ -870,20 +1074,28 @@
 				AC11F4D82BCD1CA1007EECBB /* TabView14.swift in Sources */,
 				AC11F4CB2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC69D5FD2BF35286004F25C8 /* AppAction.swift in Sources */,
+				AC039F602C06BAA4000865F7 /* TokenData.swift in Sources */,
 				AC20F3B32BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */,
+				AC039F532C06B3D6000865F7 /* ApiClient.swift in Sources */,
 				AC20F3AA2BFB235500ACF354 /* DiceView24.swift in Sources */,
+				AC4708152C06FA720026D854 /* OAuthCredential.swift in Sources */,
 				AC2556CA2BE49CA2002BB8FA /* ContentView16.swift in Sources */,
+				AC47081D2C06FAC90026D854 /* UserRouter.swift in Sources */,
 				AC20F3AF2BFB2E8F00ACF354 /* ContentView25.swift in Sources */,
 				AC8B74FB2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC2557132BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
+				AC4708112C06FA5A0026D854 /* OAuthAuthenticator.swift in Sources */,
 				AC20F3A22BFB1BE700ACF354 /* Reducer.swift in Sources */,
 				AC85D5AC2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
+				AC7D48842C04735200C21AA0 /* ContentView44.swift in Sources */,
 				AC11F4C72BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC2556DA2BE4B860002BB8FA /* QRCodeScannerView.swift in Sources */,
 				AC25571D2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC69D5F52BF34692004F25C8 /* ContentView24.swift in Sources */,
 				AC25570F2BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC20F3A62BFB1F5A00ACF354 /* AppStore.swift in Sources */,
+				AC039F642C06BB5D000865F7 /* AuthApiService.swift in Sources */,
+				AC7D488C2C0479B800C21AA0 /* LoginView.swift in Sources */,
 				AC85D5B12BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC5F535A2BEC5539002614FB /* ContentView22.swift in Sources */,
 				ACC8C8B82BFC885C00E1AFAF /* API.swift in Sources */,
@@ -898,9 +1110,13 @@
 			files = (
 				AC2038132BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
 				AC2556CB2BE49CA2002BB8FA /* ContentView16.swift in Sources */,
+				AC7D489D2C05640500C21AA0 /* ContentViewModel44.swift in Sources */,
 				AC11F4D92BCD1CA1007EECBB /* TabView14.swift in Sources */,
+				AC4708262C06FFC60026D854 /* UserInfoResponse.swift in Sources */,
 				AC5F535B2BEC5539002614FB /* ContentView22.swift in Sources */,
 				ACA1EF312C041B72002EDC95 /* ContentView40.swift in Sources */,
+				AC039F582C06B660000865F7 /* AuthRouter.swift in Sources */,
+				AC039F482C06B299000865F7 /* BaseInterceptor.swift in Sources */,
 				AC20380F2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
 				ACA1EF2C2C0409CD002EDC95 /* ContentView39.swift in Sources */,
 				AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */,
@@ -913,7 +1129,16 @@
 				AC8B74EF2BBFD71E003504C3 /* ContentView1.swift in Sources */,
 				AC69D5F62BF34692004F25C8 /* ContentView24.swift in Sources */,
 				AC85D5B62BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
+				AC7D48912C0479BE00C21AA0 /* RegisterView.swift in Sources */,
+				AC7D48952C0479C300C21AA0 /* ProfileView.swift in Sources */,
+				AC039F542C06B3D6000865F7 /* ApiClient.swift in Sources */,
+				AC4708122C06FA5A0026D854 /* OAuthAuthenticator.swift in Sources */,
 				AC2557102BEA11E1002BB8FA /* ContentView18.swift in Sources */,
+				AC7D488D2C0479B800C21AA0 /* LoginView.swift in Sources */,
+				AC47081A2C06FA8E0026D854 /* TokenResponse.swift in Sources */,
+				AC4708162C06FA720026D854 /* OAuthCredential.swift in Sources */,
+				AC039F612C06BAA4000865F7 /* TokenData.swift in Sources */,
+				AC039F6D2C06BF2D000865F7 /* AuthResponse.swift in Sources */,
 				ACC8C8D82BFDBE9500E1AFAF /* ContentView30.swift in Sources */,
 				AC2556F52BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
 				AC2557142BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
@@ -921,6 +1146,7 @@
 				AC85D5AD2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				ACC8C8BD2BFC88CE00E1AFAF /* APIService.swift in Sources */,
 				AC2556FD2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
+				AC7D48992C0479C800C21AA0 /* UserListView.swift in Sources */,
 				AC25571E2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC69D5FE2BF35286004F25C8 /* AppAction.swift in Sources */,
 				AC8B75182BBFE1A1003504C3 /* VStackView7.swift in Sources */,
@@ -930,10 +1156,14 @@
 				AC20F3B02BFB2E8F00ACF354 /* ContentView25.swift in Sources */,
 				ACC8C8DD2BFDD2AB00E1AFAF /* ContentView31.swift in Sources */,
 				AC2557272BEB4C14002BB8FA /* ProfileView21.swift in Sources */,
+				AC7D48852C04735200C21AA0 /* ContentView44.swift in Sources */,
 				AC8B75002BBFD90B003504C3 /* MyWebview4.swift in Sources */,
+				AC039F502C06B3D0000865F7 /* ApiLogger.swift in Sources */,
 				AC2556EC2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
 				AC8B751C2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC8B750A2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
+				AC4708222C06FDF60026D854 /* UserApiService.swift in Sources */,
+				AC039F5D2C06B970000865F7 /* UserDefaultManager.swift in Sources */,
 				AC8B75202BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				ACC8C8F22BFF10BA00E1AFAF /* ContentView38.swift in Sources */,
 				ACC8C8B42BFC883600E1AFAF /* User.swift in Sources */,
@@ -943,13 +1173,17 @@
 				AC85D5A92BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				AC69D5FA2BF3523E004F25C8 /* AppState.swift in Sources */,
 				ACC8C8E12BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */,
+				AC039F652C06BB5D000865F7 /* AuthApiService.swift in Sources */,
 				ACC8C8C92BFD79B000E1AFAF /* ProfileView25.swift in Sources */,
 				AC11F4CC2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				ACC8C8FA2BFF367E00E1AFAF /* LocationManager.swift in Sources */,
+				AC47081E2C06FAC90026D854 /* UserRouter.swift in Sources */,
 				AC25572B2BEB5130002BB8FA /* ListView21.swift in Sources */,
 				AC20F3B42BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */,
 				AC2557012BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
+				AC039F692C06BCD5000865F7 /* UserData.swift in Sources */,
 				AC8B750E2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
+				AC4708332C081CEA0026D854 /* UserListResponse.swift in Sources */,
 				AC8B74FC2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				ACC8C8CE2BFDAD7600E1AFAF /* ContentView28.swift in Sources */,
 				ACC8C8FE2BFF38FD00E1AFAF /* MapView38.swift in Sources */,
@@ -964,6 +1198,7 @@
 				AC2038102BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
 				AC8B75062BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC8B74DE2BBFCAEB003504C3 /* SwiftUI_PracticeUITests.swift in Sources */,
+				AC7D489A2C0479C800C21AA0 /* UserListView.swift in Sources */,
 				AC8B751D2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC20380C2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC20F3B12BFB2E8F00ACF354 /* ContentView25.swift in Sources */,
@@ -973,50 +1208,71 @@
 				AC20F3A82BFB1F5A00ACF354 /* AppStore.swift in Sources */,
 				AC8B750B2BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC5F535C2BEC5539002614FB /* ContentView22.swift in Sources */,
+				AC7D489E2C05640500C21AA0 /* ContentViewModel44.swift in Sources */,
 				AC8B74E02BBFCAEB003504C3 /* SwiftUI_PracticeUITestsLaunchTests.swift in Sources */,
 				AC2557152BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
+				AC47081B2C06FA8E0026D854 /* TokenResponse.swift in Sources */,
 				AC69D5F72BF34692004F25C8 /* ContentView24.swift in Sources */,
 				AC2556F62BE9F3F6002BB8FA /* TapButtonStyle.swift in Sources */,
 				ACA1EF2D2C0409CD002EDC95 /* ContentView39.swift in Sources */,
 				AC69D5FF2BF35286004F25C8 /* AppAction.swift in Sources */,
 				ACA1EF322C041B72002EDC95 /* ContentView40.swift in Sources */,
+				AC7D48962C0479C300C21AA0 /* ProfileView.swift in Sources */,
 				AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */,
 				ACC8C8EE2BFEFB5200E1AFAF /* ContentView37.swift in Sources */,
 				AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC2556FE2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
+				AC039F6A2C06BCD5000865F7 /* UserData.swift in Sources */,
 				ACC8C8DE2BFDD2AB00E1AFAF /* ContentView31.swift in Sources */,
 				AC8B75012BBFD90B003504C3 /* MyWebview4.swift in Sources */,
 				ACC8C8CF2BFDAD7600E1AFAF /* ContentView28.swift in Sources */,
 				ACC8C8D92BFDBE9500E1AFAF /* ContentView30.swift in Sources */,
 				AC20F3B52BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */,
+				AC7D48862C04735200C21AA0 /* ContentView44.swift in Sources */,
 				ACC8C8D42BFDB4CF00E1AFAF /* ContentView29.swift in Sources */,
 				AC20F3A42BFB1BE700ACF354 /* Reducer.swift in Sources */,
+				AC039F5E2C06B970000865F7 /* UserDefaultManager.swift in Sources */,
+				AC4708172C06FA720026D854 /* OAuthCredential.swift in Sources */,
 				ACC8C8B52BFC883600E1AFAF /* User.swift in Sources */,
 				AC2038142BC4DC04003132AF /* ProjectBasicView8.swift in Sources */,
+				AC7D48922C0479BE00C21AA0 /* RegisterView.swift in Sources */,
 				AC2556F22BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
+				AC039F662C06BB5D000865F7 /* AuthApiService.swift in Sources */,
+				AC47081F2C06FAC90026D854 /* UserRouter.swift in Sources */,
 				AC85D5B72BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
 				AC8B75192BBFE1A1003504C3 /* VStackView7.swift in Sources */,
+				AC039F592C06B660000865F7 /* AuthRouter.swift in Sources */,
+				AC039F6E2C06BF2D000865F7 /* AuthResponse.swift in Sources */,
 				AC69D5FB2BF3523E004F25C8 /* AppState.swift in Sources */,
 				AC11F4DA2BCD1CA1007EECBB /* TabView14.swift in Sources */,
 				AC2557022BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
 				ACC8C8FF2BFF38FD00E1AFAF /* MapView38.swift in Sources */,
 				AC11F4CD2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC2556CC2BE49CA2002BB8FA /* ContentView16.swift in Sources */,
+				AC039F512C06B3D0000865F7 /* ApiLogger.swift in Sources */,
+				AC7D488E2C0479B800C21AA0 /* LoginView.swift in Sources */,
 				ACC8C8CA2BFD79B000E1AFAF /* ProfileView25.swift in Sources */,
+				AC4708342C081CEA0026D854 /* UserListResponse.swift in Sources */,
 				AC8B74FD2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC85D5AE2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
+				AC4708272C06FFC60026D854 /* UserInfoResponse.swift in Sources */,
 				AC11F4C92BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC25571F2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC2557112BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				ACC8C8E22BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */,
+				AC039F552C06B3D6000865F7 /* ApiClient.swift in Sources */,
 				ACC8C8BA2BFC885C00E1AFAF /* API.swift in Sources */,
 				AC85D5B32BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC2557242BEB4617002BB8FA /* ContentView21.swift in Sources */,
+				AC039F622C06BAA4000865F7 /* TokenData.swift in Sources */,
 				ACC8C8BE2BFC88CE00E1AFAF /* APIService.swift in Sources */,
+				AC4708232C06FDF60026D854 /* UserApiService.swift in Sources */,
 				A2F98FB52BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC2556FA2BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
+				AC4708132C06FA5A0026D854 /* OAuthAuthenticator.swift in Sources */,
 				AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 				ACC8C8FB2BFF367E00E1AFAF /* LocationManager.swift in Sources */,
+				AC039F492C06B299000865F7 /* BaseInterceptor.swift in Sources */,
 				ACC8C8F32BFF10BA00E1AFAF /* ContentView38.swift in Sources */,
 				AC2556ED2BE9CC14002BB8FA /* LottoGenie.swift in Sources */,
 				AC25572C2BEB5130002BB8FA /* ListView21.swift in Sources */,
