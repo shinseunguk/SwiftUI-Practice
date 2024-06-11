@@ -7,29 +7,29 @@
 
 import SwiftUI
 
+enum ContentView45Constants {
+    static var itemsColor: Color = Color(#colorLiteral(red: 0.21012339, green: 0, blue: 0.7719092965, alpha: 1))
+}
+
 struct ContentView45: View {
     
-    var itemsColor: Color = Color(#colorLiteral(red: 0.21012339, green: 0, blue: 0.7719092965, alpha: 1))
-    
-    @StateObject var viewModel = ContentViewModel45()
-    
+    @EnvironmentObject var viewModel: ContentViewModel45
     @State var menus: [ViewMenu] = []
     
-    var totalItemCount: Int {
-        menus.reduce(0) { $0 + $1.count }
-    }
-    
-    var totalPrice: Int {
-        menus.reduce(0) { $0 + $1.price * $1.count }
-    }
+    @State private var isLoading: Bool = true
     
     var body: some View {
         GeometryReader { geometryReader in
             VStack(spacing: 0) {
                 ScrollView {
-                    ForEach($menus, id: \.self) { menus in
-                        MenuView(viewMenu: menus)
-                            .frame(height: 30)
+                    if isLoading {
+                        ProgressView()
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    } else {
+                        ForEach(Array(menus.enumerated()), id: \.element.self) { index, menu in
+                            MenuView(viewMenu: $menus[index], menuIndex: index)
+                                .frame(height: 30)
+                        }
                     }
                 }
                 .listStyle(.plain)
@@ -47,15 +47,15 @@ struct ContentView45: View {
                         }
                         Spacer()
                         
-                        Text("\(totalItemCount) Items")
-                            .foregroundColor(itemsColor)
+                        Text("\(viewModel.totalItemCount) Items")
+                            .foregroundColor(ContentView45Constants.itemsColor)
                     }
                     .padding(.horizontal, 20)
                     Spacer()
                     Spacer()
                     HStack {
                         Spacer()
-                        Text("₩\(totalPrice)")
+                        Text("₩\(viewModel.totalPrice)")
                             .font(.system(size: 40))
                             .fontWeight(.bold)
                     }
@@ -65,7 +65,8 @@ struct ContentView45: View {
                 .background(.gray)
                 
                 NavigationLink {
-                    ReceiptViewController(menus: $menus)
+                    ReceiptViewController()
+                        .environmentObject(viewModel)
                 } label: {
                     Text("ORDER")
                         .padding(20)
@@ -80,12 +81,17 @@ struct ContentView45: View {
             viewModel.fetchMenus()
         })
         .onReceive(viewModel.$menus, perform: { menus in
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                isLoading = false
+            }
+            
             self.menus = menus
         })
         .navigationTitle("Fried Center")
     }
 }
 
-#Preview {
-    ContentView45()
-}
+//#Preview {
+//    ContentView45()
+//}
