@@ -273,7 +273,7 @@ struct IndexContentView: View {
                 
                 Section(header: Text("심화 과정")) {
                     ForEach(Constants.section27, id: \.self) { item in
-                        NavigationLink(destination: ContentView45()) {
+                        NavigationLink(destination: ContentView45().environmentObject(ContentViewModel45())) {
                             Text(item)
                         }
                     }

@@ -15,6 +15,22 @@ final class ContentViewModel45: ObservableObject {
     var subscription = Set<AnyCancellable>()
     
     @Published var menus: [ViewMenu] = []
+
+    var totalItemCount: Int {
+        menus.reduce(0) { $0 + $1.count }
+    }
+
+    var totalPrice: Int {
+        menus.reduce(0) { $0 + $1.price * $1.count }
+    }
+    
+    var totalVat: Int {
+        menus.reduce(0) { ($0 + $1.price * $1.count)} / 11
+    }
+    
+    var total: Int {
+        totalPrice + totalVat
+    }
     
     func fetchMenus() {
         MenuService.fetchMenus()

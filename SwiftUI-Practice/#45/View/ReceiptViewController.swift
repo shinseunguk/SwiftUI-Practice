@@ -9,23 +9,7 @@ import SwiftUI
 
 struct ReceiptViewController: View {
     
-    @Binding var menus : [ViewMenu]
-    
-//    init(menus: [ViewMenu]) {
-//        
-//    }
-    
-    var totalPrice: Int {
-        menus.reduce(0) { $0 + $1.price * $1.count }
-    }
-    
-    var totalVat: Int {
-        menus.reduce(0) { ($0 + $1.price * $1.count)} / 11
-    }
-    
-    var total: Int {
-        totalPrice + totalVat
-    }
+    @EnvironmentObject var viewModel: ContentViewModel45
     
     var body: some View {
         GeometryReader { geometryReader in
@@ -64,7 +48,7 @@ struct ReceiptViewController: View {
                     Spacer()
                         .frame(height: 20)
                     
-                    ForEach(menus, id: \.self) { menu in
+                    ForEach(viewModel.menus, id: \.self) { menu in
                         if menu.count != 0 {
                             HStack {
                                 Text("\(menu.name) \(menu.count)개")
@@ -99,7 +83,7 @@ struct ReceiptViewController: View {
                         
                         Spacer()
                         
-                        Text("₩\(totalPrice)")
+                        Text("₩\(viewModel.totalPrice)")
                     }
                     .padding(.horizontal, 30)
                     .padding(.bottom, 10)
@@ -111,7 +95,7 @@ struct ReceiptViewController: View {
                         
                         Spacer()
                         
-                        Text("₩\(totalVat)")
+                        Text("₩\(viewModel.totalVat)")
                     }
                     .padding(.horizontal, 30)
                     .padding(.bottom, 10)
@@ -123,7 +107,7 @@ struct ReceiptViewController: View {
                     HStack {
                         Spacer()
                         
-                        Text("₩\(total)")
+                        Text("₩\(viewModel.total)")
                             .font(.system(size: 40))
                             .fontWeight(.bold)
                             .padding(.horizontal, 30)
