@@ -258,6 +258,33 @@
 		ACC8C8FD2BFF38FD00E1AFAF /* MapView38.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8FC2BFF38FD00E1AFAF /* MapView38.swift */; };
 		ACC8C8FE2BFF38FD00E1AFAF /* MapView38.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8FC2BFF38FD00E1AFAF /* MapView38.swift */; };
 		ACC8C8FF2BFF38FD00E1AFAF /* MapView38.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8C8FC2BFF38FD00E1AFAF /* MapView38.swift */; };
+		ACF2993B2C1681CB00DCFF27 /* ContentView45.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2993A2C1681CB00DCFF27 /* ContentView45.swift */; };
+		ACF2993C2C1681CB00DCFF27 /* ContentView45.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2993A2C1681CB00DCFF27 /* ContentView45.swift */; };
+		ACF2993D2C1681CB00DCFF27 /* ContentView45.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2993A2C1681CB00DCFF27 /* ContentView45.swift */; };
+		ACF2993F2C168AEB00DCFF27 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2993E2C168AEB00DCFF27 /* MenuView.swift */; };
+		ACF299402C168AEB00DCFF27 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2993E2C168AEB00DCFF27 /* MenuView.swift */; };
+		ACF299412C168AEB00DCFF27 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2993E2C168AEB00DCFF27 /* MenuView.swift */; };
+		ACF299432C16B3A200DCFF27 /* ContentViewModel45.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299422C16B3A200DCFF27 /* ContentViewModel45.swift */; };
+		ACF299442C16B3A200DCFF27 /* ContentViewModel45.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299422C16B3A200DCFF27 /* ContentViewModel45.swift */; };
+		ACF299452C16B3A200DCFF27 /* ContentViewModel45.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299422C16B3A200DCFF27 /* ContentViewModel45.swift */; };
+		ACF2994A2C16B65100DCFF27 /* FriedMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299492C16B65100DCFF27 /* FriedMenu.swift */; };
+		ACF2994B2C16B65100DCFF27 /* FriedMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299492C16B65100DCFF27 /* FriedMenu.swift */; };
+		ACF2994C2C16B65100DCFF27 /* FriedMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299492C16B65100DCFF27 /* FriedMenu.swift */; };
+		ACF2994F2C16B79000DCFF27 /* ApiClient45.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2994E2C16B79000DCFF27 /* ApiClient45.swift */; };
+		ACF299502C16B79000DCFF27 /* ApiClient45.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2994E2C16B79000DCFF27 /* ApiClient45.swift */; };
+		ACF299512C16B79000DCFF27 /* ApiClient45.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2994E2C16B79000DCFF27 /* ApiClient45.swift */; };
+		ACF299542C16B7C500DCFF27 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299532C16B7C500DCFF27 /* MenuRouter.swift */; };
+		ACF299552C16B7C500DCFF27 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299532C16B7C500DCFF27 /* MenuRouter.swift */; };
+		ACF299562C16B7C500DCFF27 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299532C16B7C500DCFF27 /* MenuRouter.swift */; };
+		ACF299592C16B90700DCFF27 /* MenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299582C16B90700DCFF27 /* MenuService.swift */; };
+		ACF2995A2C16B90700DCFF27 /* MenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299582C16B90700DCFF27 /* MenuService.swift */; };
+		ACF2995B2C16B90700DCFF27 /* MenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299582C16B90700DCFF27 /* MenuService.swift */; };
+		ACF2995D2C16DA0400DCFF27 /* ViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2995C2C16DA0400DCFF27 /* ViewMenu.swift */; };
+		ACF2995E2C16DA0400DCFF27 /* ViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2995C2C16DA0400DCFF27 /* ViewMenu.swift */; };
+		ACF2995F2C16DA0400DCFF27 /* ViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2995C2C16DA0400DCFF27 /* ViewMenu.swift */; };
+		ACF299612C17D7DE00DCFF27 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299602C17D7DE00DCFF27 /* ReceiptViewController.swift */; };
+		ACF299622C17D7DE00DCFF27 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299602C17D7DE00DCFF27 /* ReceiptViewController.swift */; };
+		ACF299632C17D7DE00DCFF27 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299602C17D7DE00DCFF27 /* ReceiptViewController.swift */; };
 		ACF69C942BECA20B00A8C2D4 /* ContentView23.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */; };
 /* End PBXBuildFile section */
 
@@ -371,6 +398,15 @@
 		ACC8C8F02BFF10BA00E1AFAF /* ContentView38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView38.swift; sourceTree = "<group>"; };
 		ACC8C8F82BFF367E00E1AFAF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		ACC8C8FC2BFF38FD00E1AFAF /* MapView38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView38.swift; sourceTree = "<group>"; };
+		ACF2993A2C1681CB00DCFF27 /* ContentView45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView45.swift; sourceTree = "<group>"; };
+		ACF2993E2C168AEB00DCFF27 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		ACF299422C16B3A200DCFF27 /* ContentViewModel45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel45.swift; sourceTree = "<group>"; };
+		ACF299492C16B65100DCFF27 /* FriedMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriedMenu.swift; sourceTree = "<group>"; };
+		ACF2994E2C16B79000DCFF27 /* ApiClient45.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient45.swift; sourceTree = "<group>"; };
+		ACF299532C16B7C500DCFF27 /* MenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRouter.swift; sourceTree = "<group>"; };
+		ACF299582C16B90700DCFF27 /* MenuService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuService.swift; sourceTree = "<group>"; };
+		ACF2995C2C16DA0400DCFF27 /* ViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenu.swift; sourceTree = "<group>"; };
+		ACF299602C17D7DE00DCFF27 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 		ACF69C932BECA20B00A8C2D4 /* ContentView23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -681,6 +717,7 @@
 				ACA1EF292C0409C0002EDC95 /* #39 */,
 				ACA1EF2E2C041B50002EDC95 /* #40 */,
 				AC7D48822C04734900C21AA0 /* #44 */,
+				ACF299392C1681C000DCFF27 /* #45 */,
 				AC8B74C82BBFCAEB003504C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Practice";
@@ -864,6 +901,70 @@
 			path = "#38";
 			sourceTree = "<group>";
 		};
+		ACF299392C1681C000DCFF27 /* #45 */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2994D2C16B78000DCFF27 /* API */,
+				ACF299472C16B63700DCFF27 /* View */,
+				ACF299462C16B63200DCFF27 /* ViewModel */,
+				ACF299482C16B64700DCFF27 /* Model */,
+			);
+			path = "#45";
+			sourceTree = "<group>";
+		};
+		ACF299462C16B63200DCFF27 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACF299422C16B3A200DCFF27 /* ContentViewModel45.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ACF299472C16B63700DCFF27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2993A2C1681CB00DCFF27 /* ContentView45.swift */,
+				ACF2993E2C168AEB00DCFF27 /* MenuView.swift */,
+				ACF299602C17D7DE00DCFF27 /* ReceiptViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACF299482C16B64700DCFF27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACF299492C16B65100DCFF27 /* FriedMenu.swift */,
+				ACF2995C2C16DA0400DCFF27 /* ViewMenu.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACF2994D2C16B78000DCFF27 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				ACF299572C16B8FD00DCFF27 /* Service */,
+				ACF299522C16B7BD00DCFF27 /* Router */,
+				ACF2994E2C16B79000DCFF27 /* ApiClient45.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		ACF299522C16B7BD00DCFF27 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				ACF299532C16B7C500DCFF27 /* MenuRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		ACF299572C16B8FD00DCFF27 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				ACF299582C16B90700DCFF27 /* MenuService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		ACF69C922BECA20200A8C2D4 /* #23 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1023,11 +1124,14 @@
 				AC4708212C06FDF60026D854 /* UserApiService.swift in Sources */,
 				ACC8C8B32BFC883600E1AFAF /* User.swift in Sources */,
 				AC039F682C06BCD5000865F7 /* UserData.swift in Sources */,
+				ACF2993B2C1681CB00DCFF27 /* ContentView45.swift in Sources */,
 				AC20380E2BC4DB6D003132AF /* ProjectCardView8.swift in Sources */,
 				AC8B75042BBFDCAF003504C3 /* ContentView5.swift in Sources */,
 				AC8B74C52BBFCAE9003504C3 /* IndexContentView.swift in Sources */,
+				ACF299612C17D7DE00DCFF27 /* ReceiptViewController.swift in Sources */,
 				ACC8C8F92BFF367E00E1AFAF /* LocationManager.swift in Sources */,
 				AC7D48982C0479C800C21AA0 /* UserListView.swift in Sources */,
+				ACF2994F2C16B79000DCFF27 /* ApiClient45.swift in Sources */,
 				AC8B751B2BBFE6EE003504C3 /* HStackView7.swift in Sources */,
 				AC039F6C2C06BF2D000865F7 /* AuthResponse.swift in Sources */,
 				AC20380A2BC4D76B003132AF /* ContentView8.swift in Sources */,
@@ -1035,6 +1139,7 @@
 				AC039F572C06B660000865F7 /* AuthRouter.swift in Sources */,
 				A2F98FB32BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC8B74EE2BBFD71E003504C3 /* ContentView1.swift in Sources */,
+				ACF2994A2C16B65100DCFF27 /* FriedMenu.swift in Sources */,
 				AC4708252C06FFC60026D854 /* UserInfoResponse.swift in Sources */,
 				AC8B75092BBFDCDD003504C3 /* ContentView6.swift in Sources */,
 				AC7D48902C0479BE00C21AA0 /* RegisterView.swift in Sources */,
@@ -1060,6 +1165,7 @@
 				AC7D489C2C05640500C21AA0 /* ContentViewModel44.swift in Sources */,
 				ACC8C8FD2BFF38FD00E1AFAF /* MapView38.swift in Sources */,
 				AC85D5B52BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
+				ACF2995D2C16DA0400DCFF27 /* ViewMenu.swift in Sources */,
 				ACC8C8D22BFDB4CF00E1AFAF /* ContentView29.swift in Sources */,
 				AC4708322C081CEA0026D854 /* UserListResponse.swift in Sources */,
 				ACC8C8BC2BFC88CE00E1AFAF /* APIService.swift in Sources */,
@@ -1083,6 +1189,8 @@
 				AC47081D2C06FAC90026D854 /* UserRouter.swift in Sources */,
 				AC20F3AF2BFB2E8F00ACF354 /* ContentView25.swift in Sources */,
 				AC8B74FB2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
+				ACF299592C16B90700DCFF27 /* MenuService.swift in Sources */,
+				ACF299542C16B7C500DCFF27 /* MenuRouter.swift in Sources */,
 				AC2557132BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
 				AC4708112C06FA5A0026D854 /* OAuthAuthenticator.swift in Sources */,
 				AC20F3A22BFB1BE700ACF354 /* Reducer.swift in Sources */,
@@ -1092,6 +1200,7 @@
 				AC2556DA2BE4B860002BB8FA /* QRCodeScannerView.swift in Sources */,
 				AC25571D2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC69D5F52BF34692004F25C8 /* ContentView24.swift in Sources */,
+				ACF2993F2C168AEB00DCFF27 /* MenuView.swift in Sources */,
 				AC25570F2BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC20F3A62BFB1F5A00ACF354 /* AppStore.swift in Sources */,
 				AC039F642C06BB5D000865F7 /* AuthApiService.swift in Sources */,
@@ -1099,6 +1208,7 @@
 				AC85D5B12BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC5F535A2BEC5539002614FB /* ContentView22.swift in Sources */,
 				ACC8C8B82BFC885C00E1AFAF /* API.swift in Sources */,
+				ACF299432C16B3A200DCFF27 /* ContentViewModel45.swift in Sources */,
 				ACC8C8CD2BFDAD7600E1AFAF /* ContentView28.swift in Sources */,
 				AC8B750D2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 			);
@@ -1112,6 +1222,7 @@
 				AC2556CB2BE49CA2002BB8FA /* ContentView16.swift in Sources */,
 				AC7D489D2C05640500C21AA0 /* ContentViewModel44.swift in Sources */,
 				AC11F4D92BCD1CA1007EECBB /* TabView14.swift in Sources */,
+				ACF299502C16B79000DCFF27 /* ApiClient45.swift in Sources */,
 				AC4708262C06FFC60026D854 /* UserInfoResponse.swift in Sources */,
 				AC5F535B2BEC5539002614FB /* ContentView22.swift in Sources */,
 				ACA1EF312C041B72002EDC95 /* ContentView40.swift in Sources */,
@@ -1121,6 +1232,8 @@
 				ACA1EF2C2C0409CD002EDC95 /* ContentView39.swift in Sources */,
 				AC20380B2BC4D76B003132AF /* ContentView8.swift in Sources */,
 				AC8B74D42BBFCAEB003504C3 /* SwiftUI_PracticeTests.swift in Sources */,
+				ACF2995A2C16B90700DCFF27 /* MenuService.swift in Sources */,
+				ACF299402C168AEB00DCFF27 /* MenuView.swift in Sources */,
 				AC2556F12BE9F2B8002BB8FA /* ContentView17.swift in Sources */,
 				ACC8C8D32BFDB4CF00E1AFAF /* ContentView29.swift in Sources */,
 				AC20F3AB2BFB235500ACF354 /* DiceView24.swift in Sources */,
@@ -1130,12 +1243,15 @@
 				AC69D5F62BF34692004F25C8 /* ContentView24.swift in Sources */,
 				AC85D5B62BC7C9D000F4AE36 /* ContentView12_2.swift in Sources */,
 				AC7D48912C0479BE00C21AA0 /* RegisterView.swift in Sources */,
+				ACF2995E2C16DA0400DCFF27 /* ViewMenu.swift in Sources */,
 				AC7D48952C0479C300C21AA0 /* ProfileView.swift in Sources */,
 				AC039F542C06B3D6000865F7 /* ApiClient.swift in Sources */,
 				AC4708122C06FA5A0026D854 /* OAuthAuthenticator.swift in Sources */,
 				AC2557102BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				AC7D488D2C0479B800C21AA0 /* LoginView.swift in Sources */,
+				ACF299442C16B3A200DCFF27 /* ContentViewModel45.swift in Sources */,
 				AC47081A2C06FA8E0026D854 /* TokenResponse.swift in Sources */,
+				ACF2994B2C16B65100DCFF27 /* FriedMenu.swift in Sources */,
 				AC4708162C06FA720026D854 /* OAuthCredential.swift in Sources */,
 				AC039F612C06BAA4000865F7 /* TokenData.swift in Sources */,
 				AC039F6D2C06BF2D000865F7 /* AuthResponse.swift in Sources */,
@@ -1179,7 +1295,10 @@
 				ACC8C8FA2BFF367E00E1AFAF /* LocationManager.swift in Sources */,
 				AC47081E2C06FAC90026D854 /* UserRouter.swift in Sources */,
 				AC25572B2BEB5130002BB8FA /* ListView21.swift in Sources */,
+				ACF2993C2C1681CB00DCFF27 /* ContentView45.swift in Sources */,
 				AC20F3B42BFB2EE600ACF354 /* ContentViewModel25.swift in Sources */,
+				ACF299622C17D7DE00DCFF27 /* ReceiptViewController.swift in Sources */,
+				ACF299552C16B7C500DCFF27 /* MenuRouter.swift in Sources */,
 				AC2557012BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
 				AC039F692C06BCD5000865F7 /* UserData.swift in Sources */,
 				AC8B750E2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
@@ -1210,6 +1329,8 @@
 				AC5F535C2BEC5539002614FB /* ContentView22.swift in Sources */,
 				AC7D489E2C05640500C21AA0 /* ContentViewModel44.swift in Sources */,
 				AC8B74E02BBFCAEB003504C3 /* SwiftUI_PracticeUITestsLaunchTests.swift in Sources */,
+				ACF299452C16B3A200DCFF27 /* ContentViewModel45.swift in Sources */,
+				ACF2993D2C1681CB00DCFF27 /* ContentView45.swift in Sources */,
 				AC2557152BEA134D002BB8FA /* RoundTextFieldStyle.swift in Sources */,
 				AC47081B2C06FA8E0026D854 /* TokenResponse.swift in Sources */,
 				AC69D5F72BF34692004F25C8 /* ContentView24.swift in Sources */,
@@ -1219,6 +1340,7 @@
 				ACA1EF322C041B72002EDC95 /* ContentView40.swift in Sources */,
 				AC7D48962C0479C300C21AA0 /* ProfileView.swift in Sources */,
 				AC85D5AA2BC76ABC00F4AE36 /* ListView10.swift in Sources */,
+				ACF2995B2C16B90700DCFF27 /* MenuService.swift in Sources */,
 				ACC8C8EE2BFEFB5200E1AFAF /* ContentView37.swift in Sources */,
 				AC8B75212BBFE8A7003504C3 /* ZStackView7.swift in Sources */,
 				AC2556FE2BEA01F5002BB8FA /* RotationButtonStyle.swift in Sources */,
@@ -1245,8 +1367,11 @@
 				AC039F6E2C06BF2D000865F7 /* AuthResponse.swift in Sources */,
 				AC69D5FB2BF3523E004F25C8 /* AppState.swift in Sources */,
 				AC11F4DA2BCD1CA1007EECBB /* TabView14.swift in Sources */,
+				ACF2995F2C16DA0400DCFF27 /* ViewMenu.swift in Sources */,
+				ACF299412C168AEB00DCFF27 /* MenuView.swift in Sources */,
 				AC2557022BEA0556002BB8FA /* BlurButtonStyle.swift in Sources */,
 				ACC8C8FF2BFF38FD00E1AFAF /* MapView38.swift in Sources */,
+				ACF299632C17D7DE00DCFF27 /* ReceiptViewController.swift in Sources */,
 				AC11F4CD2BCD07CB007EECBB /* ContentView13.swift in Sources */,
 				AC2556CC2BE49CA2002BB8FA /* ContentView16.swift in Sources */,
 				AC039F512C06B3D0000865F7 /* ApiLogger.swift in Sources */,
@@ -1256,12 +1381,14 @@
 				AC8B74FD2BBFD8D9003504C3 /* ContentView4.swift in Sources */,
 				AC85D5AE2BC7767000F4AE36 /* NavigationView11.swift in Sources */,
 				AC4708272C06FFC60026D854 /* UserInfoResponse.swift in Sources */,
+				ACF2994C2C16B65100DCFF27 /* FriedMenu.swift in Sources */,
 				AC11F4C92BCD0454007EECBB /* TabView13.swift in Sources */,
 				AC25571F2BEB0019002BB8FA /* ContentView20_2.swift in Sources */,
 				AC2557112BEA11E1002BB8FA /* ContentView18.swift in Sources */,
 				ACC8C8E22BFDD76D00E1AFAF /* ContentViewModel31.swift in Sources */,
 				AC039F552C06B3D6000865F7 /* ApiClient.swift in Sources */,
 				ACC8C8BA2BFC885C00E1AFAF /* API.swift in Sources */,
+				ACF299512C16B79000DCFF27 /* ApiClient45.swift in Sources */,
 				AC85D5B32BC7C1D800F4AE36 /* ContentView12.swift in Sources */,
 				AC2557242BEB4617002BB8FA /* ContentView21.swift in Sources */,
 				AC039F622C06BAA4000865F7 /* TokenData.swift in Sources */,
@@ -1270,6 +1397,7 @@
 				A2F98FB52BEA5BD000F7B2A7 /* ContentView20.swift in Sources */,
 				AC2556FA2BE9F8B4002BB8FA /* ReductionButtonStyle.swift in Sources */,
 				AC4708132C06FA5A0026D854 /* OAuthAuthenticator.swift in Sources */,
+				ACF299562C16B7C500DCFF27 /* MenuRouter.swift in Sources */,
 				AC8B750F2BBFDCEF003504C3 /* CircleImageView6.swift in Sources */,
 				ACC8C8FB2BFF367E00E1AFAF /* LocationManager.swift in Sources */,
 				AC039F492C06B299000865F7 /* BaseInterceptor.swift in Sources */,
