@@ -21,19 +21,21 @@ struct ContentView45: View {
     var body: some View {
         GeometryReader { geometryReader in
             VStack(spacing: 0) {
-                ScrollView {
-                    if isLoading {
-                        ProgressView()
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    } else {
+                
+                if isLoading {
+                    ProgressView()
+                        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+                } else {
+                    ScrollView {
                         ForEach(Array(menus.enumerated()), id: \.element.self) { index, menu in
                             MenuView(viewMenu: $menus[index], menuIndex: index)
                                 .frame(height: 30)
                         }
                     }
+                    .listStyle(.plain)
+                    .scrollIndicators(.hidden)
+                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
                 }
-                .listStyle(.plain)
-                .scrollIndicators(.hidden)
                 
                 VStack {
                     Spacer()
