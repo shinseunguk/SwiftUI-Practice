@@ -56,6 +56,7 @@ struct ProfileView: View {
                 }
             }
         }
+        .redacted(reason: id != "" ? [] : .placeholder)
         .onAppear {
             viewModel.fetchUserInfo()
         }
